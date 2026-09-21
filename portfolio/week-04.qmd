@@ -1,25 +1,63 @@
 ---
 title: "Five-Language Translation Portfolio"
 week: 4
-status: "Belum dimulai"
-self_score: "—"
+status: "Siap dinilai"
+self_score: "18"
 assessor_score: "—"
-description: "Satu meaning untuk lima person atau character."
-categories: [Fondasi, Language]
+description: "Evidence adaptasi repertoire dan language ke lima target berbeda tanpa mengubah core meaning dalam konteks wisata keluarga."
+categories: [Fondasi, Adaptasi Bahasa]
 ---
 
 ## Kompetensi target
 
 Mengadaptasi repertoire dan language tanpa mengubah core meaning.
 
-## Evidence wajib
+## Core Meaning
 
-- Lima versi untuk friend, technical peer, manager, customer, dan public.
-- Alasan perubahan language dan repertoire.
-- Feedback understanding dari sedikitnya satu target.
+**Fakta yang tidak boleh berubah:** Waktu keberangkatan rombongan liburan keluarga ke Lembang pada hari Sabtu besok dimajukan dari pukul 09.00 WIB menjadi pukul 06.00 WIB. Titik kumpul (*meeting point*) tetap di rumah Nenek. Keputusan ini diambil agar rombongan terhindar dari kemacetan parah di jalan tol/jalur atas.
 
-::: {.callout-tip title="Lihat contoh pengisian"}
-[Buka contoh fiktif Minggu 4](../examples/week-04.qmd) untuk melihat tingkat kekonkretan evidence dan analisis. Jangan menyalin contoh sebagai evidence pribadi.
-:::
+## Lima Versi Language
+
+| Target / Character | Versi Language | Alasan Adaptasi (Rationale) |
+|---|---|---|
+| **Friend** (Sepupu seumuran) | "Woi, besok jalan ke Lembangnya maju jadi jam 6 pagi dari rumah Nenek ya. Lu jangan begadang malam ini, awas aja kalau kesiangan bikin sekeluarga nungguin lu." | Bahasa sangat kasual dan santai. Menekankan konsekuensi langsung pada pertemanan/persaudaraan (jangan sampai telat dan bikin menunggu). |
+| **Technical Peer** (Om / Saudara pengurus transportasi) | "Om, keberangkatan fix maju jadi jam 06.00 WIB ya dari rumah Nenek. Tolong kordinasi sama supir Elf supaya mereka udah *standby* jam 05.30 untuk *loading* koper dan barang bawaan." | Fokus pada instruksi logistik teknis (*loading* koper, jam *standby* supir) karena target adalah penanggung jawab operasional kendaraan. |
+| **Manager** (Kakek/Nenek atau Tetua Keluarga) | "Assalamualaikum Nenek. Karena prediksi besok jalanan macet parah, anak-anak sepakat keberangkatan dimajukan jadi jam 6 pagi nggih. Nanti sarapannya kita bawa ke mobil saja biar Nenek tidak repot masak pagi-pagi." | Menggunakan bahasa krama/sopan dan penuh hormat. Berfokus pada penyesuaian kenyamanan (sarapan di mobil) agar tetua tidak kaget dengan perubahan jadwal yang mendadak. |
+| **Customer** (Grup WA Keluarga Besar) | "Pengumuman: Rombongan keluarga besok akan berangkat pukul 06.00 WIB tepat dari rumah Nenek agar terhindar dari macet ke Lembang. Mohon semuanya sudah berkumpul maksimal jam 05.45 WIB. Terima kasih." | Bahasa informatif, sopan, namun tegas. Menjelaskan instruksi tindakan utama yang dibutuhkan (jam berkumpul dan jam berangkat) untuk audiens luas. |
+| **Public** (Pihak Pengelola Villa) | "Selamat sore Pak, menginformasikan bahwa rombongan keluarga kami akan jalan lebih awal pukul 06.00 pagi. Estimasi sampai di villa sekitar pukul 09.00. Mohon infonya apakah kami bisa menitipkan barang dulu jika belum waktu *check-in*?" | Berfungsi sebagai komunikasi eksternal. Memberikan konteks ETA (*Estimated Time of Arrival*) dan mengajukan pertanyaan operasional ke pengelola tanpa menceritakan dinamika internal keluarga. |
+
+## Evidence Understanding (Feedback & Adaptasi)
+
+Saya menguji draf versi **Customer** ke dalam grup WhatsApp keluarga besar. 
+
+**Respons Target:** Tante saya memahami bahwa jam keberangkatan dimajukan menjadi pukul 06.00 pagi, tetapi beliau membalas: *"Waduh, kalau berangkat jam 6 pagi, anak-anak balita pada belum sarapan dan mandinya gimana ya? Takut rewel di jalan."*
+
+**Adaptasi (Perbaikan loop):** Pertanyaan ini menyadarkan saya bahwa ada ketidakpastian (*uncertainty*) mengenai persiapan anak kecil di pagi buta. Saya memodifikasi instruksi di grup WA dengan menambahkan kalimat: *"Bagi yang membawa balita, tidak perlu dipaksakan mandi pagi di rumah, bisa dimandikan saat sudah sampai di villa. Untuk sarapan pagi, panitia sudah menyiapkan roti dan susu di mobil masing-masing."* Adaptasi ini memberikan solusi dan menenangkan keluarga tanpa mengubah fakta keberangkatan jam 6 pagi.
+
+## Analisis dan Batas Penggunaan AI
+
+- *Repertoire* saya sesuaikan dengan peran lawan bicara. Kepada pengelola villa (publik), saya menambahkan negosiasi penitipan barang, sedangkan kepada Eyang/Nenek, saya fokus pada *care* (tidak perlu repot masak).
+- Saya menggunakan AI hanya untuk memverifikasi apakah kelima draf saya konsisten mempertahankan 3 fakta absolut: (1) Sabtu, (2) Jam 06.00 WIB, (3) Titik kumpul di rumah Nenek.
+- Saya membatasi AI saat AI menyarankan agar saya membuat draf "ancaman denda uang bagi yang terlambat" untuk versi grup WA keluarga. Saya menolak karena itu terlalu kaku dan bisa merusak hubungan (relationship) keluarga.
+
+## Self-assessment
+
+| Dimensi | Skor | Alasan terhadap descriptor rubrik |
+|---|---:|---|
+| Person & Character | 3 | Lima target berhasil dibedakan berdasarkan status hierarki (Nenek vs sepupu) dan kepentingannya (Pengelola villa vs Panitia transportasi). |
+| Objective & State | 3 | *Core meaning* (perubahan jam keberangkatan ke jam 6) tetap utuh di kelima versi tanpa ada distorsi. |
+| Repertoire, Language & AI | 4 | *Repertoire* sangat luwes dari bahasa santai, logistik, sopan, hingga profesional. Batasan penggunaan AI sangat jelas dan rasional (menolak saran AI yang merusak suasana keluarga). |
+| Response & Adaptation | 4 | Berhasil mendeteksi kekhawatiran Tante terkait kondisi balita, lalu mengadaptasi pengumuman dengan tambahan solusi operasional (*skip* mandi & sarapan di mobil). |
+| Agreement, Action & Relationship | 4 | *Action* sangat spesifik (jam *standby* supir, batas jam kumpul). Hubungan kekeluargaan dan hierarki dijaga dengan sangat baik di masing-masing pesan. |
+
+**Total: 18/20 — Lanjut.**
 
 {{< include ../includes/evidence-template.md >}}
+
+***
+
+## Evidence Tambahan
+**Bukti Feedback Tante (Target Customer):**
+> **Saya:** "Pengumuman: Rombongan keluarga besok akan berangkat pukul 06.00 WIB tepat dari rumah Nenek..."
+> **Tante:** "Waduh, kalau berangkat jam 6 pagi, anak-anak balita pada belum sarapan dan mandinya gimana ya? Takut pada rewel di jalan kalau buru-buru."
+> **Saya:** "Tenang Tante, anak-anak nggak usah mandi dulu nggak apa-apa, nanti mandi di villa aja pas sampai. Buat sarapan juga panitia udah nyiapin roti sama susu kotak di mobil kok biar pada bisa makan di jalan."
