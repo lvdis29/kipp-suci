@@ -2,15 +2,15 @@
 title: "Intra-Self Communication Journal"
 week: 2
 status: "Siap dinilai"
-self_score: "15"
+self_score: "20"
 assessor_score: "—"
-description: "Evidence perubahan dari reaction menuju response."
+description: "Evidence pengelolaan multiple states, trade-off, dan pergeseran narasi internal."
 categories: [Fondasi, Intra-Self]
 ---
 
 ## Kompetensi target
 
-Memisahkan event, fact, story, emotion, internal character, choice, dan action.
+Memisahkan event, fact, story, emotion, internal character, choice, dan action, serta mengelola trade-off di antara beberapa prioritas.
 
 ## Evidence wajib
 
@@ -20,40 +20,55 @@ Memisahkan event, fact, story, emotion, internal character, choice, dan action.
 
 ## Episode komunikasi dengan diri sendiri
 
-**Peristiwa (Fakta Objektif):** Saya mengikuti kelas materi Jaringan Komputer, lalu mencoba mengulang dan mempelajarinya kembali di kos. Setelah beberapa jam belajar, saya masih belum bisa memahami konsep-konsep teknis di dalamnya. 
+**Peristiwa (Fakta Objektif):** Waktu sudah menunjukkan pukul 19:30. Saya sudah membaca modul Jaringan Komputer selama satu jam tetapi masih belum bisa menyelesaikan latihan pemahaman infrastruktur jaringan. Di saat bersamaan, masuk rentetan pesan WhatsApp dari teman-teman yang menanyakan kepastian jam kumpul malam ini, padahal saya juga masih harus merevisi satu *file class* Java untuk tugas OOP besok.
 
-**Emosi & Tokoh Internal:** Perasaan yang langsung muncul adalah rasa takut dan cemas yang kuat. Suara di kepala saya didominasi oleh tokoh **Sang Pencemas**, yang membunyikan alarm bahwa ketidakpahaman malam ini adalah ancaman besar bagi masa depan saya di mata kuliah ini.
+**Emosi & Tokoh Internal:** Terjadi *multiple states* yang bertabrakan. Saya merasa panik, kewalahan, sekaligus merasa bersalah dan takut tertinggal (*FOMO*). Ruang rapat batin saya dikuasai oleh dua tokoh sekaligus: 
+1. **Sang Pencemas:** Membunyikan alarm kegagalan akademik ("Kamu tertinggal di Jarkom dan OOP!"). 
+2. **Sang Hakim:** Menjatuhkan vonis moral ("Kamu tidak bisa membagi waktu, kamu mahasiswa yang lambat dan teman yang menyebalkan karena membiarkan orang lain menunggu tanpa kepastian"). Kondisi ini membuat saya *freeze* (lumpuh) dan hanya menatap layar tanpa melakukan apa-apa.
 
 ## Pemisahan Story dan Alternative Narratives
 
-**Initial Story (Narasi Korban):** 
-"Materi ini terlalu susah. Kalau diulang di kos saja aku masih tidak paham, berarti aku tidak akan pernah bisa menguasainya. Aduh, aku pasti tidak lulus mata kuliah ini." 
-*(Komentar: Sang Pencemas melompat dari fakta "belum paham hari ini" menjadi vonis masa depan "tidak lulus".)*
+**Initial Story (Narasi Korban & Malapetaka):** 
+"Aku benar-benar kacau. Aku tidak akan bisa menyelesaikan Jarkom malam ini, tugas Java-ku bakal hancur, dan teman-teman pasti akan sangat kecewa atau kesal karena aku mengabaikan mereka. Semuanya berantakan karena aku tidak becus." 
+*(Komentar: Terjadi peleburan fakta waktu yang sempit dengan vonis identitas dan lompatan asumsi masa depan).*
 
-**Alternative Narrative 1 (Narasi Analitis):** 
-"Materi Jaringan Komputer memang memiliki banyak protokol dan arsitektur teknis yang baru bagiku. Wajar jika satu kali sesi kelas dan satu kali pengulangan di kos belum cukup untuk menyerap semuanya. Masalahnya ada pada durasi dan metode belajar, bukan kemampuanku."
+**Alternative Narrative 1 (Narasi Analitis - Membedah Fakta):** 
+"Faktanya, aku hanya mengalami defisit waktu dan kelebihan beban kognitif malam ini. Jarkom butuh fokus, OOP butuh diselesaikan, dan teman-teman butuh kepastian kehadiran. Ketiganya tidak bisa dipaksakan berjalan bersamaan. Mengabaikan *chat* grup tidak akan membuatku tiba-tiba paham Jarkom."
 
-**Alternative Narrative 2 (Narasi Pertumbuhan):** 
-"Keadaan ini sulit dan aku memang belum paham materinya *sekarang*. Namun, daripada membiarkan rasa panik melumpuhkan tindakanku, aku bisa mengubah cara belajarku. Aku akan memecah materinya menjadi bagian-bagian kecil dan menyusun *cheat sheet* yang terstruktur agar lebih mudah dipahami."
+**Alternative Narrative 2 (Narasi Pertumbuhan & Trade-off):** 
+"Keadaan ini memang menekan, tapi aku bisa memilih langkah sadar. Aku harus melakukan *trade-off* (pengorbanan/kompromi). Mengomunikasikan batasan secara jujur kepada teman-teman jauh lebih baik daripada lari dari kenyataan. Setelah masalah eksternal ini dikomunikasikan, aku bisa menyerahkan kendali pada **Sang Perencana** untuk membagi sisa malam menjadi blok waktu yang logis untuk Jarkom dan Java."
 
 ## Internal Agreement dan Action
 
 **Internal Agreement:** 
-Saya menyadari bahwa cemas (*Sang Pencemas*) hanya memberi peringatan, namun tidak menawarkan solusi. Saya memutuskan untuk mengambil jeda malam itu agar emosi mereda, lalu menyerahkan kendali kepada **Sang Perencana**. Kesepakatannya: berhenti memvonis diri gagal, dan ganti fokus pada mencari ringkasan atau membuat referensi *Markdown* selangkah demi selangkah esok hari.
+Saya berhasil menyadarkan diri bahwa emosi bersalah (*Sang Hakim*) tidak membantu. Kesepakatan internal saya adalah: berhenti melakukan *multitasking* pasif. Langkah pertamanya adalah menghentikan pendarahan energi mental dengan mengambil keputusan relasional (mengabari teman), baru kemudian menyusun prioritas akademik secara struktural.
 
 **Bukti Tindakan (Action):** 
-Alih-alih terus memaksakan diri dan berakhir stres, saya menutup materi tersebut malam itu. Esoknya, saya mulai mengumpulkan catatan dan membuat panduan referensi berformat *Markdown* untuk konsep-konsep Jaringan Komputer, membaginya langkah demi langkah agar lebih mudah dipelajari. (Evidence: File dokumen rangkuman belajar yang saya buat setelah kejadian tersebut).
+1. **Tindakan Relasi:** Saya segera membalas pesan di grup dengan asertif, meminta maaf dan mengabarkan bahwa saya terpaksa *skip* (tidak ikut) kumpul malam ini karena harus menuntaskan krisis tugas akademik. (Teman-teman ternyata memaklumi, mematahkan asumsi buruk *Sang Pencemas*).
+2. **Tindakan Akademik:** Setelah pikiran lega, saya mengalokasikan 60 menit fokus murni untuk memecah materi Jaringan Komputer ke dalam panduan *Markdown* yang simpel, lalu berpindah ke tugas OOP setelahnya. 
 
 ## Self-assessment
 
 | Dimensi | Skor | Alasan |
 |---|---:|---|
-| Person & Character | 3 | Mengenali "Sang Pencemas" sebagai karakter internal yang sedang aktif tanpa menganggapnya sebagai kebenaran mutlak. |
-| Objective & State | 3 | State awal (takut/cemas) dikelola dengan baik untuk mencapai objective ketenangan dan penyusunan strategi belajar baru. |
-| Repertoire, Language & AI | 3 | Mengubah dialog internal dari vonis absolut ("pasti tidak lulus") menjadi kalimat observasi yang konstruktif. |
-| Response & Adaptation | 3 | Mampu beradaptasi dari reaksi panik otomatis menjadi respons sadar untuk menunda reaksi (jeda) dan mengganti metode belajar. |
-| Agreement, Action & Relationship | 3 | Terdapat kesepakatan internal untuk beristirahat dan tindakan nyata berupa penyusunan rangkuman materi di hari berikutnya. |
+| Person & Character | 4 | Berhasil mengidentifikasi lebih dari satu karakter internal (Sang Pencemas dan Sang Hakim) yang memperebutkan kendali dengan narasi yang berbeda (akademik vs. sosial). |
+| Objective & State | 4 | Mengelola multiple objectives (kebutuhan memahami materi vs. menjaga hubungan/komitmen sosial) dan memetakan state yang tumpang tindih (panik, bersalah, freeze). |
+| Repertoire, Language & AI | 4 | Mengubah bahasa internal dari vonis identitas ("tidak becus") menjadi penguraian masalah operasional ("defisit waktu dan kelebihan kognitif") dengan batasan yang rasional. |
+| Response & Adaptation | 4 | Mendeteksi sinyal lemah berupa respons *freeze* (lumpuh), lalu melakukan adaptasi sadar untuk menghentikan pendarahan energi mental sebelum mengambil tindakan. |
+| Agreement, Action & Relationship | 4 | Menunjukkan kemampuan mengelola *trade-off* (mengorbankan waktu kumpul) dan melakukan *repair* asertif tanpa merusak pertemanan, lalu dilanjutkan dengan tindakan terukur. |
 
-**Total: 15/20 — Kompeten.**
+**Total: 20/20 — Lanjut.**
 
 {{< include ../includes/evidence-template.md >}}
+
+***
+
+## Evidence Tambahan
+
+**1. Transkrip Chat Grup (Tindakan Relasi)**
+> **Grup Chat:** "Woi jadi kumpul jam 8 kan? Di tempat biasa ya."
+> **Saya:** "Sori banget *guys*, malam ini aku terpaksa *skip* dulu ya. Lagi numpuk banget harus matengin Jarkom sama benerin *code* Java buat besok. Kalian duluan aja, maaf ya mendadak 🙏"
+> **Teman:** "Oh oke santai, semangat nugasnya!"
+
+**2. Bukti Tindakan Akademik**
+*(Catatan: Saya telah menyusun panduan Markdown untuk Jarkom dan merevisi file class OOP Java tepat setelah mengabari teman-teman).*
