@@ -12,11 +12,17 @@ categories: [Fondasi, Person]
 
 Membedakan person, personality, dan character serta memilih objective, repertoire, dan language yang sesuai.
 
-## Evidence wajib
+## Evidence, AI, dan feedback
 
-- Lima character dari sedikitnya tiga domain kehidupan.
-- Objective, responsibility, repertoire, dan risiko tiap character.
-- Satu contoh perubahan language ketika character berubah.
+**Transkrip Percakapan (Evidence):**
+> **Saya:** "Materi tugas kali ini lumayan susah ya, aku sampai bingung mau mulai mengatur waktu pengerjaannya dari mana."
+> **Teman:** "Iya sama banget, aku juga ngerasa pusing dan belum mulai apa-apa karena bingung bagi waktunya."
+> **Saya:** "Gimana kalau kita coba bedah (breakdown) bareng aja materinya? Kita tentukan target belajar atau bagian mana dulu yang mau kita selesaikan hari ini biar nggak terlalu berat."
+> **Teman:** "Boleh banget, yuk! Mending kita mulai dari bagian satu dulu aja."
+
+- **AI:** Digunakan setelah percakapan untuk membantu memformulasikan dan membedakan antara asumsi (*story*) dan fakta objektif dari situasi kepanikan tersebut.
+- **Refleksi:** Saya menyadari bahwa saya sempat terjebak dalam *story* bahwa tugas tersebut mustahil diselesaikan, padahal masalah utamanya hanya pada manajemen waktu.
+- **Next practice:** Ketika menghadapi tugas yang terasa sangat sulit, saya akan langsung menuliskan daftar langkah pengerjaan (*checklist*) sebelum mulai panik.
 
 ## Lima character
 
