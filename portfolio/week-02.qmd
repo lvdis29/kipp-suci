@@ -1,8 +1,8 @@
 ---
 title: "Intra-Self Communication Journal"
 week: 2
-status: "Belum dimulai"
-self_score: "—"
+status: "Siap dinilai"
+self_score: "15"
 assessor_score: "—"
 description: "Evidence perubahan dari reaction menuju response."
 categories: [Fondasi, Intra-Self]
@@ -18,8 +18,42 @@ Memisahkan event, fact, story, emotion, internal character, choice, dan action.
 - Initial story dan sedikitnya dua alternative narratives.
 - Internal agreement dan bukti tindakan berikutnya.
 
-::: {.callout-tip title="Lihat contoh pengisian"}
-[Buka contoh fiktif Minggu 2](../examples/week-02.qmd) untuk melihat tingkat kekonkretan evidence dan analisis. Jangan menyalin contoh sebagai evidence pribadi.
-:::
+## Episode komunikasi dengan diri sendiri
+
+**Peristiwa (Fakta Objektif):** Saya mengikuti kelas materi Jaringan Komputer, lalu mencoba mengulang dan mempelajarinya kembali di kos. Setelah beberapa jam belajar, saya masih belum bisa memahami konsep-konsep teknis di dalamnya. 
+
+**Emosi & Tokoh Internal:** Perasaan yang langsung muncul adalah rasa takut dan cemas yang kuat. Suara di kepala saya didominasi oleh tokoh **Sang Pencemas**, yang membunyikan alarm bahwa ketidakpahaman malam ini adalah ancaman besar bagi masa depan saya di mata kuliah ini.
+
+## Pemisahan Story dan Alternative Narratives
+
+**Initial Story (Narasi Korban):** 
+"Materi ini terlalu susah. Kalau diulang di kos saja aku masih tidak paham, berarti aku tidak akan pernah bisa menguasainya. Aduh, aku pasti tidak lulus mata kuliah ini." 
+*(Komentar: Sang Pencemas melompat dari fakta "belum paham hari ini" menjadi vonis masa depan "tidak lulus".)*
+
+**Alternative Narrative 1 (Narasi Analitis):** 
+"Materi Jaringan Komputer memang memiliki banyak protokol dan arsitektur teknis yang baru bagiku. Wajar jika satu kali sesi kelas dan satu kali pengulangan di kos belum cukup untuk menyerap semuanya. Masalahnya ada pada durasi dan metode belajar, bukan kemampuanku."
+
+**Alternative Narrative 2 (Narasi Pertumbuhan):** 
+"Keadaan ini sulit dan aku memang belum paham materinya *sekarang*. Namun, daripada membiarkan rasa panik melumpuhkan tindakanku, aku bisa mengubah cara belajarku. Aku akan memecah materinya menjadi bagian-bagian kecil dan menyusun *cheat sheet* yang terstruktur agar lebih mudah dipahami."
+
+## Internal Agreement dan Action
+
+**Internal Agreement:** 
+Saya menyadari bahwa cemas (*Sang Pencemas*) hanya memberi peringatan, namun tidak menawarkan solusi. Saya memutuskan untuk mengambil jeda malam itu agar emosi mereda, lalu menyerahkan kendali kepada **Sang Perencana**. Kesepakatannya: berhenti memvonis diri gagal, dan ganti fokus pada mencari ringkasan atau membuat referensi *Markdown* selangkah demi selangkah esok hari.
+
+**Bukti Tindakan (Action):** 
+Alih-alih terus memaksakan diri dan berakhir stres, saya menutup materi tersebut malam itu. Esoknya, saya mulai mengumpulkan catatan dan membuat panduan referensi berformat *Markdown* untuk konsep-konsep Jaringan Komputer, membaginya langkah demi langkah agar lebih mudah dipelajari. (Evidence: File dokumen rangkuman belajar yang saya buat setelah kejadian tersebut).
+
+## Self-assessment
+
+| Dimensi | Skor | Alasan |
+|---|---:|---|
+| Person & Character | 3 | Mengenali "Sang Pencemas" sebagai karakter internal yang sedang aktif tanpa menganggapnya sebagai kebenaran mutlak. |
+| Objective & State | 3 | State awal (takut/cemas) dikelola dengan baik untuk mencapai objective ketenangan dan penyusunan strategi belajar baru. |
+| Repertoire, Language & AI | 3 | Mengubah dialog internal dari vonis absolut ("pasti tidak lulus") menjadi kalimat observasi yang konstruktif. |
+| Response & Adaptation | 3 | Mampu beradaptasi dari reaksi panik otomatis menjadi respons sadar untuk menunda reaksi (jeda) dan mengganti metode belajar. |
+| Agreement, Action & Relationship | 3 | Terdapat kesepakatan internal untuk beristirahat dan tindakan nyata berupa penyusunan rangkuman materi di hari berikutnya. |
+
+**Total: 15/20 — Kompeten.**
 
 {{< include ../includes/evidence-template.md >}}
