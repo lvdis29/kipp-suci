@@ -1637,11 +1637,55 @@
     ]
   },
   {
-    "objectID": "portfolio/week-04.html#evidence-wajib",
-    "href": "portfolio/week-04.html#evidence-wajib",
+    "objectID": "portfolio/week-04.html#core-meaning",
+    "href": "portfolio/week-04.html#core-meaning",
     "title": "Five-Language Translation Portfolio",
-    "section": "Evidence wajib",
-    "text": "Evidence wajib\n\nLima versi untuk friend, technical peer, manager, customer, dan public.\nAlasan perubahan language dan repertoire.\nFeedback understanding dari sedikitnya satu target.\n\n\n\n\n\n\n\nTipLihat contoh pengisian\n\n\n\nBuka contoh fiktif Minggu 4 untuk melihat tingkat kekonkretan evidence dan analisis. Jangan menyalin contoh sebagai evidence pribadi.",
+    "section": "Core Meaning",
+    "text": "Core Meaning\nFakta yang tidak boleh berubah: Waktu keberangkatan rombongan liburan keluarga ke Lembang pada hari Sabtu besok dimajukan dari pukul 09.00 WIB menjadi pukul 06.00 WIB. Titik kumpul (meeting point) tetap di rumah Nenek. Keputusan ini diambil agar rombongan terhindar dari kemacetan parah di jalan tol/jalur atas.",
+    "crumbs": [
+      "Beranda",
+      "Five-Language Translation Portfolio"
+    ]
+  },
+  {
+    "objectID": "portfolio/week-04.html#lima-versi-language",
+    "href": "portfolio/week-04.html#lima-versi-language",
+    "title": "Five-Language Translation Portfolio",
+    "section": "Lima Versi Language",
+    "text": "Lima Versi Language\n\n\n\n\n\n\n\n\nTarget / Character\nVersi Language\nAlasan Adaptasi (Rationale)\n\n\n\n\nFriend (Sepupu seumuran)\n“Woi, besok jalan ke Lembangnya maju jadi jam 6 pagi dari rumah Nenek ya. Lu jangan begadang malam ini, awas aja kalau kesiangan bikin sekeluarga nungguin lu.”\nBahasa sangat kasual dan santai. Menekankan konsekuensi langsung pada pertemanan/persaudaraan (jangan sampai telat dan bikin menunggu).\n\n\nTechnical Peer (Om / Saudara pengurus transportasi)\n“Om, keberangkatan fix maju jadi jam 06.00 WIB ya dari rumah Nenek. Tolong kordinasi sama supir Elf supaya mereka udah standby jam 05.30 untuk loading koper dan barang bawaan.”\nFokus pada instruksi logistik teknis (loading koper, jam standby supir) karena target adalah penanggung jawab operasional kendaraan.\n\n\nManager (Kakek/Nenek atau Tetua Keluarga)\n“Assalamualaikum Nenek. Karena prediksi besok jalanan macet parah, anak-anak sepakat keberangkatan dimajukan jadi jam 6 pagi nggih. Nanti sarapannya kita bawa ke mobil saja biar Nenek tidak repot masak pagi-pagi.”\nMenggunakan bahasa krama/sopan dan penuh hormat. Berfokus pada penyesuaian kenyamanan (sarapan di mobil) agar tetua tidak kaget dengan perubahan jadwal yang mendadak.\n\n\nCustomer (Grup WA Keluarga Besar)\n“Pengumuman: Rombongan keluarga besok akan berangkat pukul 06.00 WIB tepat dari rumah Nenek agar terhindar dari macet ke Lembang. Mohon semuanya sudah berkumpul maksimal jam 05.45 WIB. Terima kasih.”\nBahasa informatif, sopan, namun tegas. Menjelaskan instruksi tindakan utama yang dibutuhkan (jam berkumpul dan jam berangkat) untuk audiens luas.\n\n\nPublic (Pihak Pengelola Villa)\n“Selamat sore Pak, menginformasikan bahwa rombongan keluarga kami akan jalan lebih awal pukul 06.00 pagi. Estimasi sampai di villa sekitar pukul 09.00. Mohon infonya apakah kami bisa menitipkan barang dulu jika belum waktu check-in?”\nBerfungsi sebagai komunikasi eksternal. Memberikan konteks ETA (Estimated Time of Arrival) dan mengajukan pertanyaan operasional ke pengelola tanpa menceritakan dinamika internal keluarga.",
+    "crumbs": [
+      "Beranda",
+      "Five-Language Translation Portfolio"
+    ]
+  },
+  {
+    "objectID": "portfolio/week-04.html#evidence-understanding-feedback-adaptasi",
+    "href": "portfolio/week-04.html#evidence-understanding-feedback-adaptasi",
+    "title": "Five-Language Translation Portfolio",
+    "section": "Evidence Understanding (Feedback & Adaptasi)",
+    "text": "Evidence Understanding (Feedback & Adaptasi)\nSaya menguji draf versi Customer ke dalam grup WhatsApp keluarga besar.\nRespons Target: Tante saya memahami bahwa jam keberangkatan dimajukan menjadi pukul 06.00 pagi, tetapi beliau membalas: “Waduh, kalau berangkat jam 6 pagi, anak-anak balita pada belum sarapan dan mandinya gimana ya? Takut rewel di jalan.”\nAdaptasi (Perbaikan loop): Pertanyaan ini menyadarkan saya bahwa ada ketidakpastian (uncertainty) mengenai persiapan anak kecil di pagi buta. Saya memodifikasi instruksi di grup WA dengan menambahkan kalimat: “Bagi yang membawa balita, tidak perlu dipaksakan mandi pagi di rumah, bisa dimandikan saat sudah sampai di villa. Untuk sarapan pagi, panitia sudah menyiapkan roti dan susu di mobil masing-masing.” Adaptasi ini memberikan solusi dan menenangkan keluarga tanpa mengubah fakta keberangkatan jam 6 pagi.",
+    "crumbs": [
+      "Beranda",
+      "Five-Language Translation Portfolio"
+    ]
+  },
+  {
+    "objectID": "portfolio/week-04.html#analisis-dan-batas-penggunaan-ai",
+    "href": "portfolio/week-04.html#analisis-dan-batas-penggunaan-ai",
+    "title": "Five-Language Translation Portfolio",
+    "section": "Analisis dan Batas Penggunaan AI",
+    "text": "Analisis dan Batas Penggunaan AI\n\nRepertoire saya sesuaikan dengan peran lawan bicara. Kepada pengelola villa (publik), saya menambahkan negosiasi penitipan barang, sedangkan kepada Eyang/Nenek, saya fokus pada care (tidak perlu repot masak).\nSaya menggunakan AI hanya untuk memverifikasi apakah kelima draf saya konsisten mempertahankan 3 fakta absolut: (1) Sabtu, (2) Jam 06.00 WIB, (3) Titik kumpul di rumah Nenek.\nSaya membatasi AI saat AI menyarankan agar saya membuat draf “ancaman denda uang bagi yang terlambat” untuk versi grup WA keluarga. Saya menolak karena itu terlalu kaku dan bisa merusak hubungan (relationship) keluarga.",
+    "crumbs": [
+      "Beranda",
+      "Five-Language Translation Portfolio"
+    ]
+  },
+  {
+    "objectID": "portfolio/week-04.html#self-assessment",
+    "href": "portfolio/week-04.html#self-assessment",
+    "title": "Five-Language Translation Portfolio",
+    "section": "Self-assessment",
+    "text": "Self-assessment\n\n\n\n\n\n\n\n\nDimensi\nSkor\nAlasan terhadap descriptor rubrik\n\n\n\n\nPerson & Character\n3\nLima target berhasil dibedakan berdasarkan status hierarki (Nenek vs sepupu) dan kepentingannya (Pengelola villa vs Panitia transportasi).\n\n\nObjective & State\n3\nCore meaning (perubahan jam keberangkatan ke jam 6) tetap utuh di kelima versi tanpa ada distorsi.\n\n\nRepertoire, Language & AI\n4\nRepertoire sangat luwes dari bahasa santai, logistik, sopan, hingga profesional. Batasan penggunaan AI sangat jelas dan rasional (menolak saran AI yang merusak suasana keluarga).\n\n\nResponse & Adaptation\n4\nBerhasil mendeteksi kekhawatiran Tante terkait kondisi balita, lalu mengadaptasi pengumuman dengan tambahan solusi operasional (skip mandi & sarapan di mobil).\n\n\nAgreement, Action & Relationship\n4\nAction sangat spesifik (jam standby supir, batas jam kumpul). Hubungan kekeluargaan dan hierarki dijaga dengan sangat baik di masing-masing pesan.\n\n\n\nTotal: 18/20 — Lanjut.",
     "crumbs": [
       "Beranda",
       "Five-Language Translation Portfolio"
@@ -1703,11 +1747,22 @@
     ]
   },
   {
-    "objectID": "portfolio/week-04.html#self-assessment",
-    "href": "portfolio/week-04.html#self-assessment",
+    "objectID": "portfolio/week-04.html#self-assessment-1",
+    "href": "portfolio/week-04.html#self-assessment-1",
     "title": "Five-Language Translation Portfolio",
     "section": "Self-assessment",
     "text": "Self-assessment\n\n\n\nDimensi\nSkor 1–4\nEvidence singkat\n\n\n\n\nPerson & Character\n—\n—\n\n\nObjective & State\n—\n—\n\n\nRepertoire, Language & AI\n—\n—\n\n\nResponse & Adaptation\n—\n—\n\n\nAgreement, Action & Relationship\n—\n—\n\n\n\nTotal: — / 20\n\nAssessment dosen\nSkor: — / 20\nEvidence yang mendukung: —\nPrioritas perbaikan: —\nKeputusan: Belum dinilai / Perlu revisi / Tercapai",
+    "crumbs": [
+      "Beranda",
+      "Five-Language Translation Portfolio"
+    ]
+  },
+  {
+    "objectID": "portfolio/week-04.html#evidence-tambahan",
+    "href": "portfolio/week-04.html#evidence-tambahan",
+    "title": "Five-Language Translation Portfolio",
+    "section": "Evidence Tambahan",
+    "text": "Evidence Tambahan\nBukti Feedback Tante (Target Customer): &gt; Saya: “Pengumuman: Rombongan keluarga besok akan berangkat pukul 06.00 WIB tepat dari rumah Nenek…” &gt; Tante: “Waduh, kalau berangkat jam 6 pagi, anak-anak balita pada belum sarapan dan mandinya gimana ya? Takut pada rewel di jalan kalau buru-buru.” &gt; Saya: “Tenang Tante, anak-anak nggak usah mandi dulu nggak apa-apa, nanti mandi di villa aja pas sampai. Buat sarapan juga panitia udah nyiapin roti sama susu kotak di mobil kok biar pada bisa makan di jalan.”",
     "crumbs": [
       "Beranda",
       "Five-Language Translation Portfolio"
@@ -1872,7 +1927,7 @@
     "href": "portfolio/index.html",
     "title": "Indeks Portfolio",
     "section": "",
-    "text": "Perbarui metadata di bagian atas setiap file week-XX.qmd. Nilai status yang disarankan: Belum dimulai, Draft, Siap dinilai, Perlu revisi, atau Tercapai.\n\n\n\n\n\n\nTipButuh contoh?\n\n\n\nLihat contoh portfolio lengkap untuk Minggu 1–15. Semua contoh menggunakan mahasiswa, person, percakapan, dan artefak fiktif. Gunakan sebagai acuan mutu dan struktur, bukan sebagai jawaban untuk disalin.\n\n\n\n\n\n\n\n\n   \n    \n    \n      Urut berdasar\n      Default\n      \n        Evidence\n      \n    \n  \n    \n      \n      \n    \n\n\n\n\n\n\nMinggu\n\n\n\nEvidence\n\n\n\nStatus\n\n\n\nSelf\n\n\n\nAssessor\n\n\n\n\n\n\n\n\n1\n\n\nCharacter Map\n\n\nSiap dinilai\n\n\n15\n\n\n—\n\n\n\n\n\n\n2\n\n\nIntra-Self Communication Journal\n\n\nSiap dinilai\n\n\n20\n\n\n—\n\n\n\n\n\n\n3\n\n\nRelationship Conversation\n\n\nSiap dinilai\n\n\n20\n\n\n—\n\n\n\n\n\n\n4\n\n\nFive-Language Translation Portfolio\n\n\nBelum dimulai\n\n\n—\n\n\n—\n\n\n\n\n\n\n5\n\n\nProfessional Discovery Interview\n\n\nBelum dimulai\n\n\n—\n\n\n—\n\n\n\n\n\n\n6\n\n\nTarget–Attention Challenge\n\n\nBelum dimulai\n\n\n—\n\n\n—\n\n\n\n\n\n\n7\n\n\nProblem–Solution Interest Pitch\n\n\nBelum dimulai\n\n\n—\n\n\n—\n\n\n\n\n\n\n8\n\n\nUTS Performance Evidence Package\n\n\nBelum dimulai\n\n\n—\n\n\n—\n\n\n\n\n\n\n9\n\n\nDesire-State Communication\n\n\nBelum dimulai\n\n\n—\n\n\n—\n\n\n\n\n\n\n10\n\n\nAction & Agreement Challenge\n\n\nBelum dimulai\n\n\n—\n\n\n—\n\n\n\n\n\n\n11\n\n\nMulti-Person Negotiation Challenge\n\n\nBelum dimulai\n\n\n—\n\n\n—\n\n\n\n\n\n\n12\n\n\nCommunity Communication Challenge\n\n\nBelum dimulai\n\n\n—\n\n\n—\n\n\n\n\n\n\n13\n\n\nPublic Contribution Challenge\n\n\nBelum dimulai\n\n\n—\n\n\n—\n\n\n\n\n\n\n14\n\n\nAI-Mediated Communication Design\n\n\nBelum dimulai\n\n\n—\n\n\n—\n\n\n\n\n\n\n15\n\n\nCapstone Performance Portfolio\n\n\nBelum dimulai\n\n\n—\n\n\n—\n\n\n\n\n\n\nTidak ada yang cocok\n Kembali ke atas",
+    "text": "Perbarui metadata di bagian atas setiap file week-XX.qmd. Nilai status yang disarankan: Belum dimulai, Draft, Siap dinilai, Perlu revisi, atau Tercapai.\n\n\n\n\n\n\nTipButuh contoh?\n\n\n\nLihat contoh portfolio lengkap untuk Minggu 1–15. Semua contoh menggunakan mahasiswa, person, percakapan, dan artefak fiktif. Gunakan sebagai acuan mutu dan struktur, bukan sebagai jawaban untuk disalin.\n\n\n\n\n\n\n\n\n   \n    \n    \n      Urut berdasar\n      Default\n      \n        Evidence\n      \n    \n  \n    \n      \n      \n    \n\n\n\n\n\n\nMinggu\n\n\n\nEvidence\n\n\n\nStatus\n\n\n\nSelf\n\n\n\nAssessor\n\n\n\n\n\n\n\n\n1\n\n\nCharacter Map\n\n\nSiap dinilai\n\n\n15\n\n\n—\n\n\n\n\n\n\n2\n\n\nIntra-Self Communication Journal\n\n\nSiap dinilai\n\n\n20\n\n\n—\n\n\n\n\n\n\n3\n\n\nRelationship Conversation\n\n\nSiap dinilai\n\n\n20\n\n\n—\n\n\n\n\n\n\n4\n\n\nFive-Language Translation Portfolio\n\n\nSiap dinilai\n\n\n18\n\n\n—\n\n\n\n\n\n\n5\n\n\nProfessional Discovery Interview\n\n\nBelum dimulai\n\n\n—\n\n\n—\n\n\n\n\n\n\n6\n\n\nTarget–Attention Challenge\n\n\nBelum dimulai\n\n\n—\n\n\n—\n\n\n\n\n\n\n7\n\n\nProblem–Solution Interest Pitch\n\n\nBelum dimulai\n\n\n—\n\n\n—\n\n\n\n\n\n\n8\n\n\nUTS Performance Evidence Package\n\n\nBelum dimulai\n\n\n—\n\n\n—\n\n\n\n\n\n\n9\n\n\nDesire-State Communication\n\n\nBelum dimulai\n\n\n—\n\n\n—\n\n\n\n\n\n\n10\n\n\nAction & Agreement Challenge\n\n\nBelum dimulai\n\n\n—\n\n\n—\n\n\n\n\n\n\n11\n\n\nMulti-Person Negotiation Challenge\n\n\nBelum dimulai\n\n\n—\n\n\n—\n\n\n\n\n\n\n12\n\n\nCommunity Communication Challenge\n\n\nBelum dimulai\n\n\n—\n\n\n—\n\n\n\n\n\n\n13\n\n\nPublic Contribution Challenge\n\n\nBelum dimulai\n\n\n—\n\n\n—\n\n\n\n\n\n\n14\n\n\nAI-Mediated Communication Design\n\n\nBelum dimulai\n\n\n—\n\n\n—\n\n\n\n\n\n\n15\n\n\nCapstone Performance Portfolio\n\n\nBelum dimulai\n\n\n—\n\n\n—\n\n\n\n\n\n\nTidak ada yang cocok\n Kembali ke atas",
     "crumbs": [
       "Beranda",
       "Indeks Portfolio"
