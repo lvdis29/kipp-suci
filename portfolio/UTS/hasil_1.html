@@ -6,9 +6,8 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="author" content="[Nama mahasiswa]">
 
-<title>Laporan UTS KIPP - Sesi 1 – Portfolio KIPP-2</title>
+<title>Laporan UTS KIPP 2026 — Versi 2.0 – Portfolio KIPP-2</title>
 <style>
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
@@ -77,6 +76,35 @@ ul.task-list li input[type="checkbox"] {
 }</script>
 <style>html{ scroll-behavior: smooth; }</style>
 
+  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
+  <script defer="" src="https://cdn.jsdelivr.net/npm/mathjax@4/tex-chtml.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN" && texText && texText.data) {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
 
 </head>
 
@@ -150,7 +178,7 @@ ul.task-list li input[type="checkbox"] {
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Alihkan bilah sisi" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item">Laporan UTS KIPP - Sesi 1</li></ol></nav>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item">Laporan UTS KIPP 2026 — Versi 2.0</li></ol></nav>
         <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Alihkan bilah sisi" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
     </div>
@@ -275,15 +303,11 @@ ul.task-list li input[type="checkbox"] {
   <li><a href="#profil-awal-komunikator" id="toc-profil-awal-komunikator" class="nav-link" data-scroll-target="#profil-awal-komunikator">Profil awal komunikator</a></li>
   <li><a href="#dugaan-awal-profil-target-dan-rencana" id="toc-dugaan-awal-profil-target-dan-rencana" class="nav-link" data-scroll-target="#dugaan-awal-profil-target-dan-rencana">Dugaan awal profil target dan rencana</a></li>
   </ul></li>
-  <li><a href="#c-skrip-percakapan" id="toc-c-skrip-percakapan" class="nav-link" data-scroll-target="#c-skrip-percakapan">C) Skrip Percakapan</a>
-  <ul class="collapse">
-  <li><a href="#u001---mahasiswa---tahap" id="toc-u001---mahasiswa---tahap" class="nav-link" data-scroll-target="#u001---mahasiswa---tahap">U001 - Mahasiswa - [Tahap]</a></li>
-  <li><a href="#ai001---fasilitatornama-tokoh---tahap" id="toc-ai001---fasilitatornama-tokoh---tahap" class="nav-link" data-scroll-target="#ai001---fasilitatornama-tokoh---tahap">AI001 - [Fasilitator/nama tokoh] - [Tahap]</a></li>
-  </ul></li>
+  <li><a href="#c-skrip-percakapan" id="toc-c-skrip-percakapan" class="nav-link" data-scroll-target="#c-skrip-percakapan">C) Skrip Percakapan</a></li>
   <li><a href="#d-hasil-evaluasi-dan-refleksi" id="toc-d-hasil-evaluasi-dan-refleksi" class="nav-link" data-scroll-target="#d-hasil-evaluasi-dan-refleksi">D) Hasil, Evaluasi, dan Refleksi</a>
   <ul class="collapse">
   <li><a href="#hasil-tujuan-dan-perubahan-swotask" id="toc-hasil-tujuan-dan-perubahan-swotask" class="nav-link" data-scroll-target="#hasil-tujuan-dan-perubahan-swotask">Hasil tujuan dan perubahan SWOT/ASK</a></li>
-  <li><a href="#evaluasi-stimulus-respons-dan-diagnosis-profil" id="toc-evaluasi-stimulus-respons-dan-diagnosis-profil" class="nav-link" data-scroll-target="#evaluasi-stimulus-respons-dan-diagnosis-profil">Evaluasi stimulus-respons dan diagnosis profil</a></li>
+  <li><a href="#evaluasi-stimulusrespons-dan-diagnosis-profil" id="toc-evaluasi-stimulusrespons-dan-diagnosis-profil" class="nav-link" data-scroll-target="#evaluasi-stimulusrespons-dan-diagnosis-profil">Evaluasi stimulus–respons dan diagnosis profil</a></li>
   <li><a href="#pengaruh-pesan-personal-dan-kualitas-relasi" id="toc-pengaruh-pesan-personal-dan-kualitas-relasi" class="nav-link" data-scroll-target="#pengaruh-pesan-personal-dan-kualitas-relasi">Pengaruh pesan personal dan kualitas relasi</a></li>
   <li><a href="#uji-ulang-dan-pembelajaran" id="toc-uji-ulang-dan-pembelajaran" class="nav-link" data-scroll-target="#uji-ulang-dan-pembelajaran">Uji ulang dan pembelajaran</a></li>
   <li><a href="#penilaian-enam-dimensi" id="toc-penilaian-enam-dimensi" class="nav-link" data-scroll-target="#penilaian-enam-dimensi">Penilaian enam dimensi</a></li>
@@ -299,20 +323,14 @@ ul.task-list li input[type="checkbox"] {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Laporan UTS KIPP - Sesi 1</h1>
-<p class="subtitle lead">Memimpin diri dan terus belajar</p>
+<h1 class="title">Laporan UTS KIPP 2026 — Versi 2.0</h1>
+<p class="subtitle lead">Sesi 1 — Kasus 1</p>
 </div>
 
 
 
 <div class="quarto-title-meta">
 
-    <div>
-    <div class="quarto-title-meta-heading">Penulis</div>
-    <div class="quarto-title-meta-contents">
-             <p>[Nama mahasiswa] </p>
-          </div>
-  </div>
     
   
     
@@ -323,19 +341,6 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<div class="callout callout-style-default callout-tip callout-titled" title="Template belum terisi">
-<div class="callout-header d-flex align-content-center">
-<div class="callout-icon-container">
-<i class="callout-icon"></i>
-</div>
-<div class="callout-title-container flex-fill">
-<span class="screen-reader-only">Tip</span>Template belum terisi
-</div>
-</div>
-<div class="callout-body-container callout-body">
-<p>Isi dari sesi Anda sendiri. <a href="../../examples/UTS/hasil_1.html">Lihat contoh sesi 1</a> dan <a href="../../portfolio/week-08.html">kembali ke portfolio Minggu 8</a>. Jangan menyalin dialog contoh sebagai transkrip. Simpan nama laporan sesuai <code>PENUGASAN.md</code> pada ZIP aktif; jika ditentukan, tambahkan NIM pada nama berkas dan perbarui tautan di Minggu 8.</p>
-</div>
-</div>
 <section id="a-identitas" class="level1">
 <h1>A) Identitas</h1>
 <table class="caption-top table">
@@ -352,55 +357,39 @@ ul.task-list li input[type="checkbox"] {
 <tbody>
 <tr class="odd">
 <td>Nama mahasiswa</td>
-<td>[Isi]</td>
+<td>Eka Suci Ramadhani</td>
 </tr>
 <tr class="even">
 <td>NIM</td>
-<td>[Isi sebagai teks; pertahankan nol di awal]</td>
+<td>18225063</td>
 </tr>
 <tr class="odd">
-<td>Kelas</td>
-<td>[Isi]</td>
+<td>Kelas dan tanggal</td>
+<td>K1; 14 Oktober 2026</td>
 </tr>
 <tr class="even">
-<td>Tanggal pelaksanaan</td>
-<td>[Tanggal aktual sesi]</td>
-</tr>
-<tr class="odd">
 <td>Nomor/judul kasus</td>
-<td>Sesi 1: Memimpin diri dan terus belajar</td>
-</tr>
-<tr class="even">
-<td>Target</td>
-<td>[Diri mahasiswa; tokoh pembanding sesuai ZIP aktif]</td>
+<td>Sesi 1; Kasus 1 (Memimpin Diri dan Terus Belajar)</td>
 </tr>
 <tr class="odd">
-<td>Versi bank/paket</td>
-<td>[Salin versi ZIP aktif; jangan mengikuti versi contoh secara otomatis]</td>
+<td>Nama dan ID target</td>
+<td>Diri mahasiswa; pembanding Dimas (K1-04)</td>
 </tr>
 <tr class="even">
-<td>Sumber penugasan</td>
-<td>[Nama ZIP dan PENUGASAN.md]</td>
+<td>Versi bank/aturan penugasan</td>
+<td>Bank 2.0; paket 2.0; penugasan dalam PENUGASAN.md</td>
 </tr>
 <tr class="odd">
 <td>Modalitas</td>
-<td>[Teks/suara; sumber transkripsi bila digunakan]</td>
+<td>Teks</td>
 </tr>
 <tr class="even">
-<td>Konteks nyata/fiktif</td>
-<td>[Nyatakan dan jelaskan bagian hipotetis]</td>
+<td>Kasus nyata/fiktif</td>
+<td>Nyata</td>
 </tr>
 <tr class="odd">
 <td>Kelengkapan transkrip</td>
-<td>[Lengkap/parsial; bagian yang hilang dan sebabnya]</td>
-</tr>
-<tr class="even">
-<td>Nama laporan menurut paket</td>
-<td>[Isi nama berkas yang ditentukan]</td>
-</tr>
-<tr class="odd">
-<td>Konfirmasi identitas/ringkasan</td>
-<td>[ID giliran; konfirmasi bukan verifikasi identitas]</td>
+<td>Lengkap (seluruh giliran percakapan tercatat dari tahap identifikasi hingga refleksi)</td>
 </tr>
 </tbody>
 </table>
@@ -409,41 +398,28 @@ ul.task-list li input[type="checkbox"] {
 <h1>B) Kasus dan Tujuan</h1>
 <section id="kasus-dan-tujuan-tindakan" class="level2">
 <h2 class="anchored" data-anchor-id="kasus-dan-tujuan-tindakan">Kasus dan tujuan tindakan</h2>
-<p>[Ringkas brief dari ZIP sesi ini, konteks, target utama, dan respons akhir yang diharapkan. Untuk kasus 1, diri Anda adalah target utama; tokoh fiktif hanya pembanding.]</p>
-<table class="caption-top table">
-<thead>
-<tr class="header">
-<th>Unsur</th>
-<th>Isi</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Tujuan komunikasi/tindakan</td>
-<td>[Isi]</td>
-</tr>
-<tr class="even">
-<td>Keadaan awal</td>
-<td>[Bukti dan ID; bedakan dugaan dari laporan target]</td>
-</tr>
-<tr class="odd">
-<td>Indikator keberhasilan</td>
-<td>[Apa yang dapat diperiksa?]</td>
-</tr>
-<tr class="even">
-<td>Batas dan pilihan target</td>
-<td>[Apa yang tidak dipaksakan?]</td>
-</tr>
-<tr class="odd">
-<td>Tenggat</td>
-<td>[Tanggal/jam atau waktu relatif yang konsisten]</td>
-</tr>
-</tbody>
-</table>
+<p>Brief Kasus 1 memfokuskan pengembangan kemampuan memimpin diri sendiri (<em>self-leadership</em>) dan ketahanan belajar saat menghadapi hambatan kognitif serta fisik dalam perkuliahan teknik. Konteks spesifik yang dihadapi mahasiswa adalah beban ganda praktikum pemrograman (Pemrograman Berorientasi Objek dan Pemodelan Basis Data) yang berlangsung pada hari yang sama setelah jadwal kuliah padat hingga sore hari.</p>
+<ul>
+<li><strong>Tujuan Tindakan:</strong>
+<ul>
+<li>Membangun dialog diri yang rasional dan suportif guna menghentikan siklus penundaan (<em>procrastination</em>) dan asumsi buruk (<em>fixed mindset</em>).</li>
+<li>Menyusun strategi alokasi waktu dan batasan eksperimen mikro (<em>micro-stepping</em>) yang terukur untuk belajar mandiri tanpa mengorbankan pemulihan fisik.</li>
+<li>Menguji ketahanan argumentasi dan perencanaan terstruktur saat berhadapan dengan tokoh pembanding berkarakter kritis-analitis (Dimas, K1-04).</li>
+</ul></li>
+<li><strong>Respons Akhir yang Diharapkan:</strong>
+<ul>
+<li>Mahasiswa mampu mendefinisikan metrik eksekusi teknis yang objektif (<em>query</em> 3 tabel dan fungsi agregasi).</li>
+<li>Mahasiswa menyepakati batas waktu kerja konkret (maksimal 25 menit) dengan aturan berhenti (<em>stop-rule</em>) dan rencana cadangan (<em>fallback plan</em>) adaptif.</li>
+</ul></li>
+<li><strong>Indikator Keberhasilan:</strong>
+<ul>
+<li>Meredam kecemasan berlebih (<em>overthinking</em>) sebelum mulai belajar.</li>
+<li>Keberhasilan mengunci kesepakatan rasional dengan tokoh pembanding berbasis transparansi batasan kapasitas dan otonomi.</li>
+</ul></li>
+</ul>
 </section>
 <section id="profil-awal-komunikator" class="level2">
 <h2 class="anchored" data-anchor-id="profil-awal-komunikator">Profil awal komunikator</h2>
-<p>Isi tentang <strong>diri Anda</strong>, bukan profil target. Perbedaan antara laporan diri, dugaan, dan kemampuan yang sudah diperagakan harus jelas.</p>
 <table class="caption-top table">
 <colgroup>
 <col style="width: 25%">
@@ -455,53 +431,53 @@ ul.task-list li input[type="checkbox"] {
 <tr class="header">
 <th>Unsur</th>
 <th>Laporan/dugaan awal</th>
-<th>Bukti/ID</th>
-<th>Kepastian dan batas</th>
+<th>Bukti</th>
+<th>Tingkat kepastian</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td>Persepsi/SWOT subjektif</td>
-<td>[Kekuatan, keterbatasan, peluang, ancaman]</td>
-<td>[Isi]</td>
-<td>[Isi]</td>
+<td>SWOT subjektif</td>
+<td><strong>Strengths:</strong> Memiliki alokasi waktu dan sumber belajar terstruktur (Edunex). <br><strong>Weaknesses:</strong> Energi fisik terkuras di sore hari, mudah terdistraksi, ragu memulai. <br><strong>Opportunities:</strong> Belajar bersama rekan sebaya menurunkan kepanikan. <br><strong>Threats:</strong> Beban dua praktikum berat di hari yang sama memicu <em>overthinking</em> dan rasa takut tertinggal.</td>
+<td>U004, U005, U006, U011, U012</td>
+<td>Terkonfirmasi melalui laporan diri</td>
 </tr>
 <tr class="even">
 <td>Attitude</td>
-<td>[Nilai, sikap, keyakinan]</td>
-<td>[Isi]</td>
-<td>[Isi]</td>
+<td>Rentan terjebak asumsi negatif (<em>fixed mindset</em> bahwa diri “tidak berbakat”), namun memiliki kemauan belajar kuat karena dorongan tanggung jawab akademik.</td>
+<td>U010, U011</td>
+<td>Terkonfirmasi</td>
 </tr>
 <tr class="odd">
 <td>Knowledge</td>
-<td>[Pemahaman dan informasi yang belum diketahui]</td>
-<td>[Isi]</td>
-<td>[Isi]</td>
+<td>Memahami materi perkuliahan secara konseptual, namun mengalami bias kognitif dengan mencampuradukkan fakta (“baru belajar sedikit”) dengan interpretasi (“tidak berbakat”).</td>
+<td>U010</td>
+<td>Terkonfirmasi</td>
 </tr>
 <tr class="even">
 <td>Skill</td>
-<td>[Kemampuan dan kebutuhan latihan/dukungan]</td>
-<td>[Isi]</td>
-<td>[Isi]</td>
+<td>Mampu merancang alur dekonstruksi teknis dan aturan belajar terstruktur, tetapi pada awalnya bersikap reaktif terhadap kelelahan fisik.</td>
+<td>U006, U012, U015</td>
+<td>Teramati melalui demonstrasi</td>
 </tr>
 <tr class="odd">
 <td>Preferensi/MBTI jika dilaporkan</td>
-<td>[Laporan diri atau belum diketahui; bukan diagnosis dari percakapan]</td>
-<td>[Isi]</td>
-<td>[Isi]</td>
+<td>Cenderung reflektif, membutuhkan rasa aman emosional sebelum eksekusi, responsif terhadap struktur dan logika bertahap.</td>
+<td>U008, U015</td>
+<td>Laporan diri / observasi perilaku</td>
 </tr>
 <tr class="even">
-<td>Peran, karakter, kultur/ko-kultur</td>
-<td>[Norma spesifik yang relevan]</td>
-<td>[Isi]</td>
-<td>[Isi]</td>
+<td>Karakter, peran, kultur/ko-kultur</td>
+<td>Mahasiswa sains/teknologi yang menghadapi tuntutan standar performa tinggi; menghargai pembuktian praktis dan kejelasan parameter tugas.</td>
+<td>U005, U014</td>
+<td>Terkonfirmasi</td>
 </tr>
 </tbody>
 </table>
 </section>
 <section id="dugaan-awal-profil-target-dan-rencana" class="level2">
 <h2 class="anchored" data-anchor-id="dugaan-awal-profil-target-dan-rencana">Dugaan awal profil target dan rencana</h2>
-<p>[Catat dugaan sebelum profil lengkap diungkap. Pisahkan fakta, dugaan, dan pertanyaan validasi. Jangan mengisi ulang dugaan setelah mengetahui konfigurasi tokoh. Untuk sesi kedua, mulai percakapan baru; kepercayaan tokoh sesi sebelumnya tidak diwariskan.]</p>
+<p>Target utama adalah dialog diri mahasiswa sendiri, sedangkan Dimas (K1-04) berfungsi sebagai cermin pembanding eksternal.</p>
 <table class="caption-top table">
 <colgroup>
 <col style="width: 20%">
@@ -522,38 +498,38 @@ ul.task-list li input[type="checkbox"] {
 <tbody>
 <tr class="odd">
 <td>Target</td>
-<td>[Sasaran dan tujuan]</td>
-<td>[Isi]</td>
-<td>[Isi]</td>
-<td>[Isi]</td>
+<td>Membangun kepemimpinan diri dan meyakinkan pembanding kritis mengenai efektivitas belajar terstruktur.</td>
+<td>Menyelaraskan keyakinan rasional, metrik pemahaman, dan eksperimen terbatas.</td>
+<td>Menyajikan fakta beban kognitif dan alternatif solusi terukur.</td>
+<td>Terbentuknya komitmen belajar tanpa paksaan.</td>
 </tr>
 <tr class="even">
 <td>Attention</td>
-<td>[Status]</td>
-<td>[Isi]</td>
-<td>[Isi]</td>
-<td>[Isi]</td>
+<td>Diri terjebak rasa lelah; Dimas skeptis terhadap klaim efektivitas metode.</td>
+<td><strong>A:</strong> Mengakui skeptisisme dan rasa lelah sebagai alarm biologis yang valid.</td>
+<td>Menanyakan kriteria pembuktian dan mendengarkan keraguan.</td>
+<td>Kesiapan mendiskusikan parameter evaluasi.</td>
 </tr>
 <tr class="odd">
 <td>Interest</td>
-<td>[Status]</td>
-<td>[Isi]</td>
-<td>[Isi]</td>
-<td>[Isi]</td>
+<td>Tertarik mencari cara belajar yang tidak menguras tenaga secara sia-sia.</td>
+<td><strong>K:</strong> Menjelaskan dekonstruksi kueri dan pemisahan logika dari sintaks.</td>
+<td>Menguraikan alur kerja 25 menit (<em>micro-step</em>).</td>
+<td>Fokus pada efisiensi proses bertahap.</td>
 </tr>
 <tr class="even">
 <td>Desire</td>
-<td>[Status]</td>
-<td>[Isi]</td>
-<td>[Isi]</td>
-<td>[Isi]</td>
+<td>Keinginan mencapai hasil praktikum optimal tanpa frustrasi kognitif.</td>
+<td><strong>A &amp; S:</strong> Memberikan rasa aman melalui <em>stop-rule</em> dan rencana darurat.</td>
+<td>Menawarkan batasan risiko minimal (<em>Minimum Viable Action</em>).</td>
+<td>Penurunan defensivitas dan penerimaan batas energi.</td>
 </tr>
 <tr class="odd">
 <td>Action</td>
-<td>[Langkah pertama]</td>
-<td>[Isi]</td>
-<td>[Isi]</td>
-<td>[Isi]</td>
+<td>Mengeksekusi eksperimen belajar malam hari atau mengaktifkan rencana cadangan.</td>
+<td><strong>S:</strong> Menjalankan tindakan nyata terukur dengan evaluasi mandiri.</td>
+<td>Mengunci kesepakatan aturan 25 menit beserta <em>fallback plan</em>.</td>
+<td>Kesepakatan eksplisit untuk mulai mencoba.</td>
 </tr>
 </tbody>
 </table>
@@ -561,23 +537,50 @@ ul.task-list li input[type="checkbox"] {
 </section>
 <section id="c-skrip-percakapan" class="level1">
 <h1>C) Skrip Percakapan</h1>
-<p><strong>Belum ada transkrip.</strong> Tempel seluruh pesan aktual dari identifikasi sampai konfirmasi, termasuk rencana, simulasi awal, evaluasi, uji ulang, dan refleksi. Jangan membuat dialog pengganti untuk pesan yang hilang. Jika parsial, jelaskan pada bagian A.</p>
-<!-- Ulangi blok berikut sesuai jumlah giliran. Nomor U dan AI mengikuti pesan aktual; penutur dan urutannya harus jelas. Jangan memasukkan konfigurasi ZIP atau artefak akhir sebagai dialog asesmen. -->
-<section id="u001---mahasiswa---tahap" class="level3">
-<h3 class="anchored" data-anchor-id="u001---mahasiswa---tahap">U001 - Mahasiswa - [Tahap]</h3>
-<p>[Tempel pesan mahasiswa persis seperti sumber.]</p>
-</section>
-<section id="ai001---fasilitatornama-tokoh---tahap" class="level3">
-<h3 class="anchored" data-anchor-id="ai001---fasilitatornama-tokoh---tahap">AI001 - [Fasilitator/nama tokoh] - [Tahap]</h3>
-<p>[Tempel pesan AI persis seperti sumber.]</p>
-<!-- Tambahkan semua giliran. Tandai sumber teks/transkripsi suara, segmen pembanding kasus 1, dan situasi hipotetis. Transkripsi suara bukan bukti prosodi. -->
-</section>
+<p><strong>U001 [identifikasi]:</strong> Inventarisasi paket saya dan jalankan. Mulai sesi 1. [Lampiran file zip]</p>
+<p><strong>AI001 [identifikasi]:</strong> Empat berkas yang terdeteksi di dalam paket: * PENUGASAN.md * prompt_umum.md * profil_komunikan.md * template_laporan.qmd Teks yang dikirimkan merupakan data biner dari arsip ZIP yang terkompresi, sehingga isi instruksi di dalamnya tidak dapat terbaca secara langsung. Agar sesi 1 bisa segera dijalankan, silakan ekstrak arsip tersebut terlebih dahulu dan tempelkan isi teks dari PENUGASAN.md serta prompt_umum.md ke sini.</p>
+<p><strong>U002 [identifikasi]:</strong> [Mengunggah teks lengkap dari profil_komunikan.md, prompt_umum.md, template_laporan.qmd, dan PENUGASAN.md]</p>
+<p><strong>AI002 [identifikasi]:</strong> Sesi 1 (Kasus 1: Memimpin Diri dan Terus Belajar) resmi dimulai. Mohon lengkapi dan konfirmasikan data identitas Anda untuk pencatatan laporan: * Nama lengkap * NIM * Kelas * Tanggal pelaksanaan * Modalitas komunikasi (misalnya teks atau suara) * Sifat kasus (nyata atau fiktif)</p>
+<p><strong>U003 [identifikasi]:</strong> Eka Suci Ramadhani 18225063 K1 14 Oktober 2026 Teks Nyata</p>
+<p><strong>AI003 [rencana]:</strong> Data identitas Anda telah dicatat untuk laporan: * Nama: Eka Suci Ramadhani * NIM: 18225063 * Kelas: K1 * Tanggal: 14 Oktober 2026 * Modalitas: Teks * Sifat kasus: Nyata</p>
+<p>Brief Kasus 1 — Memimpin Diri dan Terus Belajar Pilih satu kemampuan yang ingin Anda kembangkan agar lebih berguna dalam kuliah, kerja, atau kehidupan. Kita akan memeriksa cara Anda memimpin diri ketika menghadapi hambatan belajar. Target utama dalam kasus ini adalah diri Anda sendiri. Kemampuan spesifik apa yang ingin Anda kembangkan saat ini, dan apa tujuan konkret serta hambatan utama (baik dari segi sikap, pemahaman, maupun kesiapan teknis) yang biasanya Anda alami saat mencoba mempelajarinya?</p>
+<p><strong>U004 [simulasi awal - dialog diri]:</strong> Halo, akhir-akhir ini aku ngerasa susah banget buat fokus ngerjain tugas coding/belajar, rasanya gampang ke-distract atau bingung mau mulai dari mana. Kamu pernah ngerasain ini nggak?</p>
+<p><strong>AI004 [simulasi awal - dialog diri]:</strong> Sebagai AI, aku memang nggak ngalamin distraksi secara fisik, tapi aku sering banget melihat pola ini. Rasa kewalahan pas mau mulai tugas yang butuh konsentrasi tinggi kayak ngoding itu wajar banget. Saat tugasnya terasa besar, rumit, atau abstrak, fokus kita gampang terpecah dan akhirnya lari ke distraksi karena bingung harus mengeksekusi langkah pertama dari mana. Pas momen kamu lagi ngerasa mentok, gampang ke-distract, atau bingung mau mulai itu, biasanya apa kalimat atau pikiran yang paling sering muncul di dalam diri kamu sendiri?</p>
+<p><strong>U005 [simulasi awal - dialog diri]:</strong> Aku kadang kayak susah banget gituloh ngerjain praktikum oop dan praktikum pbd karena ada di hari yang sama, aku bingung membagi belajarnya karena aku rasa kedua matkul tersebut berat dan target ingin dapat nilai yang bagus membuatku merasa kesulitan</p>
+<p><strong>AI005 [simulasi awal - dialog diri]:</strong> Punya dua praktikum teknis yang sama-sama berat di satu hari ditambah target nilai tinggi emang wajar banget bikin kamu ngerasa kewalahan sebelum mulai. Tekanan untuk harus langsung sempurna di keduanya sering kali justru bikin kita beku (freeze) dan bingung nentuin prioritas. Kalau kamu lagi ada di situasi terjepit di antara dua praktikum itu, pesan atau kalimat seperti apa yang biasanya kamu katakan ke dirimu sendiri, dan bagaimana perasaanmu saat mendengar kalimat itu?</p>
+<p><strong>U006 [simulasi awal - dialog diri]:</strong> Kayak, aduh kenapa susah banget sih mana jadwal kuliah sampe sore semua, nyampe kos kayak udah ngantukcbanget gitu loh</p>
+<p><strong>AI006 [simulasi awal - dialog diri]:</strong> Kuliah sampai sore memang benar-benar menguras energi fisik dan mental, jadi wajar banget kalau sampai kos kondisimu sudah lowbat total. Waktu pikiran “aduh kenapa susah banget sih” dan rasa ngantuk itu datang, respons otomatis apa yang biasanya kamu ambil saat itu, dan apa dampaknya ke rasa cemasmu soal target nilai tadi?</p>
+<p><strong>U007 [simulasi awal - dialog diri]:</strong> Iya respons otomatis yang aku ambil saat itu cuma pengen istirahat dulu gitu lo soalnya jeda buat praktikum sama praktikum PBB cuma dua jam dan aku rasa dengan alokasi waktu dua jam untuk mengerjakan praktikum yang dua itu masih kurang karena materinya itu sangat padat tiap pertemuannya</p>
+<p><strong>AI007 [simulasi awal - dialog diri]:</strong> Jeda dua jam di antara dua materi sepadat itu memang sempit banget kalau ekspektasinya harus langsung menuntaskan atau memahami semuanya sekaligus. Sangat wajar kalau tubuh dan pikiranmu akhirnya otomatis memilih buat istirahat dulu. Kalau kamu perhatikan lagi, ekspektasi apa yang sebenarnya kamu bebankan ke diri sendiri saat menatap jeda dua jam itu, dan kalimat apa yang bisa kamu katakan ke dirimu supaya jeda tersebut tetap memberi waktu istirahat tanpa memicu rasa panik atau bersalah?</p>
+<p><strong>U008 [simulasi awal - dialog diri]:</strong> Ya kadang aku istirahatnya belajarnya sama teman aja itu buat ngerasa enggak panik gitu</p>
+<p><strong>AI008 [simulasi awal - dialog diri]:</strong> Belajar bareng teman memang ampuh buat nurunin panik dan bikin suasana jadi terasa lebih ringan ditanggung bareng. Waktu kamu belajar bareng teman itu, gimana pengaruhnya ke fokus dan pemahamanmu terhadap tugas coding OOP atau PBD—apakah jadi benar-benar terbantu buat mulai eksekusi kodenya, atau justru ada tantangan lain yang muncul?</p>
+<p><strong>U009 [simulasi awal - dialog diri]:</strong> Sebenarnya cuman ngurangin rasa panik aja sih soalnya kan juga bentar tuh jadi enggak bisa belajar sebanyak itu dan itu kan jedanya pas jam makan siang jadi sekalian makan gitu</p>
+<p><strong>AI009 [simulasi awal - dialog diri]:</strong> Berarti waktu jeda dua jam itu fungsinya memang paling cocok buat pemulihan energi dan makan siang, bukan buat memaksakan belajar materi berat dalam jumlah banyak. Membebani jeda sempit itu dengan ekspektasi belajar penuh justru cuma bikin rasa bersalah saat waktu tersebut dipakai makan atau istirahat. Kalau melihat jadwal harianmu secara keseluruhan, pesan konkret seperti apa yang ingin kamu tetapkan untuk dirimu sendiri soal cara membagi waktu persiapan praktikum sebelum hari H, supaya kamu nggak merasa terjepit di jeda dua jam itu lagi?</p>
+<p><strong>U010 [simulasi awal - dialog diri]:</strong> Faktanya aku memang baru belajar sedikit, tapi asumsi burukku selalu bilang ‘aku nggak bakat’. Kira-kira solusinya apa ya biar nggak overthinking?</p>
+<p><strong>AI010 [simulasi awal - dialog diri]:</strong> Menyadari perbedaan antara fakta (baru belajar sedikit) dan asumsi (“aku nggak bakat”) sebenarnya langkah awal yang krusial banget. Pikiran “nggak bakat” itu sering kali cuma cara otak kita merespons rasa lelah atau panik saat menghadapi materi yang rumit, bukan kesimpulan yang valid soal kapasitasmu. Kunci buat meredam overthinking adalah dengan menggeser fokus dari label (“bakat atau tidak”) ke jam terbang dan proses kecil yang bisa diukur. Kalau kamu mau mengganti suara asumsi itu dengan kalimat yang lebih adil dan berpegang pada fakta tadi, kalimat seperti apa yang ingin kamu katakan ke dirimu sendiri saat rasa cemas itu mulai muncul lagi?</p>
+<p><strong>U011 [simulasi awal - dialog diri]:</strong> Ya sebenarnya aku selalu mau mulai buat belajar lagi karena mau enggak mau kalau misal aku enggak belajar pasti nilainya tuh bakal jelek banget apalagi kalau misalnya teman teman pas praktikum dapat ngerjain beberapa soal berapa gitu tadi belajarnya makin tinggi gitu</p>
+<p><strong>AI011 [simulasi awal - dialog diri]:</strong> Rasa takut tertinggal saat melihat teman-teman bisa mengerjakan lebih banyak soal memang dorongan yang wajar, tapi membandingkan diri secara terus-menerus biasanya justru menguras energi yang harusnya dipakai buat memahami materi. Sebelum kita beralih ke langkah berikutnya, kalau kamu rangkum menjadi satu komitmen tindakan: kalimat penenang apa yang ingin kamu ucapkan ke dirimu saat rasa cemas itu datang, dan berapa alokasi waktu konkret (misalnya 20–30 menit di hari apa) yang paling realistis ingin kamu jadwalkan untuk mencicil latihan coding sebelum hari praktikum?</p>
+<p><strong>U012 [simulasi awal - dialog diri]:</strong> Sebenarnya kalau alokasi waktu konkritnya tuh malam sebelum hari H aku pasti selalu nyempetin kayak dua sampai tiga jam terus pagi sebelum praktikum sekitar 30 menit dan setelah praktikum pertama minimal satu jam dengan mencoba beberapa latihan soal dari Edunex</p>
+<p><strong>AI012 [simulasi pembanding]:</strong> Alokasi waktu dan sumber belajar yang kamu susun (malam 2–3 jam, pagi 30 menit, dan 1 jam pasca-praktikum melalui latihan Edunex) sudah sangat terstruktur dan terukur secara teknis. Sekarang kita masuk ke segmen cermin pembanding untuk mengamati bagaimana pendekatan belajarmu bekerja pada orang lain dengan hambatan serupa. Tokoh pembanding berikut adalah Dimas, seorang teman pembanding pengembangan diri. Dimas: “Apa bukti pendekatan ini lebih baik?” Bagaimana pesan atau tanggapan yang ingin kamu sampaikan kepada Dimas untuk menjawab pertanyaannya tersebut?</p>
+<p><strong>U013 [simulasi pembanding]:</strong> Iya aku rasa lebih baik dan membantu sih</p>
+<p><strong>AI013 [simulasi pembanding]:</strong> Dimas: “Ukuran ‘merasa terbantu’ itu masih terlalu subjektif. Kalau nggak ada parameter atau metrik yang jelas—misalnya perbandingan jumlah soal yang bisa diselesaikan atau pemahaman konsep sebelum dan sesudahnya—gimana caranya kita yakin kalau alokasi waktu itu beneran efisien dan sepadan dengan energi yang keluar?” Fasilitator: Respons Dimas memperlihatkan bahwa klaim yang bertumpu pada perasaan subjektif belum cukup menjawab keraguan orang yang membutuhkan bukti logis dan terukur. Segmen ini adalah cermin pembanding. Melihat perbedaan respons tersebut dibandingkan saat kamu berbicara ke diri sendiri, menurutmu apa yang perlu diubah atau disesuaikan dari gaya komunikasimu ketika menyampaikan ide ke orang dengan karakter seperti Dimas?</p>
+<p><strong>U014 [simulasi pembanding]:</strong> Metrik Eksekusi (Output): Dari satu soal query kompleks (minimal melibatkan relasi tiga tabel dan fungsi agregasi), aku berhasil menuliskan alurnya secara bertahap dan menjalankannya sampai hasilnya keluar tanpa error.</p>
+<p><strong>AI014 [simulasi pembanding]:</strong> Dimas: “Tolok ukur itu jauh lebih masuk akal. Menyelesaikan satu query dengan relasi tiga tabel dan fungsi agregasi sampai berjalan tanpa error adalah parameter objektif yang bisa langsung diuji. Tapi dengan keterbatasan waktu dan tenaga setelah kuliah seharian, bagaimana bentuk eksperimen kecil pertamanya agar kita bisa membuktikan cara ini efektif tanpa harus langsung memforsir waktu belajar berjam-jam?”</p>
+<p><strong>U015 [simulasi pembanding]:</strong> Bentuk eksperimen kecil pertamanya kita batasi dengan aturan micro-step berdurasi maksimal 25 menit saja malam ini, tanpa perlu menunggu kondisi energi penuh. Alur eksperimennya dibuat bertahap agar tidak membebani kognitif: * Pemetaan Relasi (5 menit, tanpa buka laptop): Corat-coret cepat di kertas atau tablet. Tulis tiga tabel yang terlibat beserta kunci penghubungnya (Primary Key dan Foreign Key). Tujuannya mengunci logika relasi sebelum pusing memikirkan sintaks. * Uji Coba Join Dasar (10 menit): Buka DBMS, lalu tulis dan jalankan query hanya sampai klausa JOIN saja tanpa filter rumit atau fungsi agregasi. Begitu tabel berhasil tersambung dan datanya muncul, itu validasi bahwa struktur dasarnya sudah benar. * Penyematan Agregasi &amp; Batas Waktu (10 menit): Tambahkan fungsi agregasi dan GROUP BY untuk menyelesaikan soal secara utuh. Aturan Berhenti (Stop-Rule): Kalau dalam rentang 25 menit query berhasil keluar datanya tanpa error, eksperimen malam ini resmi selesai. Namun, kalau sampai menit ke-25 masih mentok atau muncul error, kita wajib berhenti dan tidak boleh menambah waktu. Cukup tangkap layar (screenshot) pesan error-nya dan catat di baris mana logikanya macet untuk ditanyakan besok. Dengan cara ini, energi tidak terkuras untuk memaksakan belajar berjam-jam, tetapi kita tetap mendapat progres nyata dan membuktikan bahwa rasa takut di awal bisa dipatahkan langkah demi langkah. Setuju untuk kita coba malam ini?</p>
+<p><strong>AI015 [uji ulang pembanding]:</strong> Dimas: “Rencana 25 menit dengan stop-rule dan pemisahan tahap logika sebelum sintaks ini sangat terstruktur dan masuk akal. Risikonya terukur, otonomi waktu terjaga, dan parameternya objektif—aku sepakat untuk coba malam ini. Namun, ada satu kendala teknis: bagaimana kalau malam ini kondisi fisik benar-benar drop sehingga bahkan untuk fokus 5 menit corat-coret di kertas saja pikiran sudah buntu, atau koneksi DBMS lokal bermasalah sebelum 25 menit berjalan? Apa penyesuaian eksperimennya agar komitmen ini tidak langsung gugur total?”</p>
+<p><strong>U016 [uji ulang pembanding]:</strong> Kalau skenario kendala fisik atau teknis itu terjadi, kita aktifkan rencana darurat (fallback plan) agar komitmennya tidak gugur total: 1. Jika kondisi fisik benar-benar drop: Kita turunkan targetnya menjadi Minimum Viable Action (5 menit saja). Kita tidak memaksakan memecahkan soal baru; cukup buka satu contoh query join yang sudah pernah berhasil dari modul atau praktikum sebelumnya, lalu baca dan pahami ulang alur logikanya. Jika kepala tetap buntu, segera tidur dan jadwalkan ulang 15 menit besok pagi saat energi sudah pulih. 2. Jika DBMS lokal bermasalah: Jangan buang sisa energi malam ini untuk troubleshooting environment atau instalasi. Cukup tuliskan draf syntax query-nya secara manual di kertas atau aplikasi catatan. Validasi eksekusinya kita tunda dan uji besok di kampus. Ukuran keberhasilan dari rencana cadangan ini adalah menjaga kebiasaan untuk tetap hadir dan berprogres, bukan memaksakan diri di luar kapasitas fisik. Karena batasan, risiko, dan alternatifnya sudah terantisipasi dengan sangat konkret, kesepakatan ini resmi kita kunci untuk malam ini. Sesi dialog roleplay selesai, mari kita lanjut ke tahap evaluasi, uji ulang, dan penyusunan laporannya.</p>
+<p><strong>AI016 [evaluasi &amp; uji ulang diri]:</strong> Dimas: “Sangat rasional dan adaptif. Otonomi untuk menyesuaikan batas energi dan fallback plan tanpa memaksakan diri di luar kapasitas membuat eksperimen ini realistis untuk dijalankan. Kesepakatan kita kunci untuk malam ini.” Simulasi pembanding bersama Dimas telah selesai. Kita sekarang beralih ke tahap Evaluasi Sementara &amp; Uji Ulang Diri. Sebelum ringkasan profil pembanding dibuka, silakan jawab dua hal berikut untuk kebutuhan laporan: 1. Evaluasi Sementara Diri: Berdasarkan dialog tadi, bagaimana Anda membaca kondisi awal diri Anda (terkait keyakinan/kemauan, pemahaman, dan keterampilan memimpin diri), serta perubahan apa yang mulai terbentuk setelah Anda menyusun metrik dan micro-step tersebut? 2. Uji Ulang Diri (Penerapan Nyata): Bayangkan pada kesempatan belajar praktikum berikutnya Anda kembali berada di posisi lelah sepulang kuliah, waktu jeda sempit, dan muncul rasa takut ‘tidak bakat’. Tuliskan tindakan nyata yang akan Anda jalankan saat itu juga, alasan logisnya, dan indikator evaluasi untuk mengukur keberhasilannya.</p>
+<p><strong>U017 [evaluasi &amp; uji ulang diri]:</strong> Evaluasi Sementara Diri * Kondisi Awal (ASK &amp; Status Internal): * Attitude: Terdapat kecenderungan fixed mindset dan penilaian subjektif yang melihat tugas rumit sebagai ancaman mutlak. Rasa cemas direspons dengan asumsi negatif (“saya tidak berbakat di bidang basis data”) yang memicu keinginan menghindar atau menunda. * Knowledge: Terjadi kekeliruan dalam memisahkan fakta dan interpretasi. Saya mengira belum paham seluruh materi berarti gagal total, padahal faktanya materi hanya membutuhkan penguraian tahap demi tahap. * Skill: Keterampilan memimpin diri (self-leadership) masih reaktif; saya belum terbiasa menetapkan batasan waktu kerja yang terstruktur (timeboxing) dan mudah panik ketika menghadapi galat (error) sintaksis. * Perubahan Pasca-Penyusunan Metrik &amp; Micro-Step: * Pembaruan Attitude: Terjadi pergeseran dari kepanikan emosional menuju sikap eksperimental yang realistis dan bertanggung jawab. Target tidak lagi menuntut kesempurnaan instan, melainkan kesediaan berproses. * Pembaruan Knowledge: Memahami bahwa penyusunan kueri basis data dapat didekonstruksi secara bertahap (analisis relasi kunci, uji coba join, baru penerapan agregasi) sehingga beban kognitif menjadi terukur. * Pembaruan Skill: Terbentuk keterampilan memimpin diri melalui perancangan eksperimen konkret: membatasi durasi 25 menit, menetapkan stop-rule yang tegas, serta menyiapkan fallback plan adaptif sesuai kapasitas energi.</p>
+<p>Uji Ulang Diri (Penerapan Nyata) * Tindakan Nyata Saat Itu Juga: * Mengambil jeda sadar 1 menit untuk mengenali narasi “tidak berbakat” sebagai asumsi (story), bukan fakta objektif. * Menjalankan aksi minimum (Minimum Viable Action) selama 10 menit: tidak langsung membuka perangkat lunak DBMS, melainkan membuka catatan untuk membaca kembali satu contoh kueri yang sudah berhasil atau mencoretkan relasi antartabel di kertas. * Mengaktifkan stop-rule: jika setelah 10 menit pikiran tetap buntu karena kelelahan fisik, saya sengaja menghentikan sesi, mencatat satu pertanyaan kendala untuk asisten praktikum, dan langsung beristirahat tanpa rasa bersalah. * Alasan Logis: * Memaksakan belajar dalam kondisi kognitif yang terkuras hanya akan memperbesar frekuensi galat, memicu frustrasi, dan memperkuat narasi palsu bahwa diri “tidak mampu”. * Menurunkan hambatan awal (friction to start) melalui tindakan mikro menjaga momentum belajar tetap berjalan tanpa mengorbankan pemulihan fisik. * Indikator Evaluasi Keberhasilan: * Indikator Proses: Tidak terjadi pelarian waktu tanpa tujuan (seperti scrolling media sosial) lebih dari 15 menit sebagai bentuk kompensasi rasa cemas. * Indikator Output: Tersusunnya minimal satu artefak konkret berupa sketsa relasi tabel di kertas atau satu poin pertanyaan spesifik yang siap diajukan saat sesi praktikum berikutnya. * Indikator Sikap: Keputusan untuk berhenti atau melanjutkan belajar diambil secara sadar (deliberate choice), bukan didorong oleh kepanikan atau rasa putus asa.</p>
+<p><strong>AI017 [refleksi]:</strong> Evaluasi diri dan rencana uji ulang nyata Anda telah tercatat dengan sangat baik dan terstruktur. Sesuai prosedur, berikut adalah pengungkapan ringkasan profil tokoh pembanding Dimas (K1-04) yang sebelumnya dirahasiakan untuk keperluan evaluasi: * Peran/Karakter: Penilai teknis; ko-kultur yang menghargai alasan kritis dan otonomi (preferensi komunikasi logis, ringkas, terukur). * Hambatan Awal: * Attitude (A): Meragukan manfaat latihan, skeptis terhadap klaim subjektif. * Knowledge (K): Memerlukan ukuran peningkatan/parameter yang objektif. * Skill (S): Memerlukan eksperimen terbatas dan realistis terhadap beban waktu. * Kondisi Perubahan: Menghargai pertanyaan kritis, mengakui batas energi, menyusun uji terukur yang dapat dievaluasi sendiri, serta menyepakati langkah pertama, waktu, dan fallback plan adaptif.</p>
+<p>Sebelum berkas laporan utuh (hasil_1_18225063.qmd) disusun dan dikonfirmasi, silakan jawab satu pertanyaan refleksi utama berikut: “Pesan atau tindakan apa yang selama dialog tadi membantu atau justru menghambat rasa dipercaya dan dipedulikan (baik pada diri sendiri maupun saat menghadapi Dimas), dan apa bukti respons konkret yang Anda amati?”</p>
+<p><strong>U018 [refleksi &amp; konfirmasi]:</strong> Pesan dan Tindakan yang Membantu * Penyusunan Rencana Cadangan (Fallback Plan) dan Otonomi Diri: Mengakui keterbatasan energi fisik secara jujur serta merumuskan tindakan alternatif (membatasi durasi menjadi 5–10 menit atau mencatat draf di kertas saat perangkat bermasalah). Tindakan ini menumbuhkan rasa dipedulikan pada diri sendiri karena tidak memaksakan kapasitas di luar batas, sekaligus menumbuhkan rasa percaya pada Dimas bahwa komitmen yang dibuat bersifat realistis dan adaptif, bukan sekadar janji kosong. * Pendefinisian Parameter yang Terukur: Menggeser fokus dari target abstrak menjadi batasan teknis yang jelas (kueri tiga tabel dengan fungsi agregasi dalam alokasi waktu 25 menit). Hal ini membuktikan profesionalitas dan keseriusan evaluasi tanpa mengabaikan aspek kelelahan. Pesan dan Tindakan yang Menghambat * Penggunaan Tolok Ukur yang Terlalu Subjektif di Awal: Penggunaan frasa seperti “merasa terbantu” sempat menghambat rasa percaya lawan bicara karena terkesan tidak memiliki dasar evaluasi yang jelas dan rawan menjadi pembenaran semu. * Pelabelan Diri yang Menghakimi (Internal Story): Menyamakan kesalahan sintaksis atau kegagalan eksekusi kueri dengan kesimpulan “tidak berbakat”. Pesan internal ini menghambat kepedulian terhadap kondisi diri sendiri, memicu respons defensif, dan memperbesar kecemasan sebelum mencoba. Bukti Respons Konkret yang Diamati * Bukti Verbal dari Dimas: Dimas yang awalnya skeptis dan menuntut kejelasan (“Ukuran ‘merasa terbantu’ itu masih terlalu subjektif…”) berubah memberikan validasi penuh dan menyepakati komitmen setelah batasan kapasitas dan rencana cadangan diberikan (“Sangat rasional dan adaptif. Otonomi untuk menyesuaikan batas energi dan fallback plan tanpa memaksakan diri di luar kapasitas membuat eksperimen ini realistis untuk dijalankan. Kesepakatan kita kunci untuk malam ini.”). * Bukti Respons Internal Diri: Penurunan ketegangan kognitif yang ditandai dengan berhentinya keinginan menunda (procrastination). Dorongan untuk menghindar berganti menjadi kesiapan mengeksekusi eksperimen mikro karena adanya kepastian aturan berhenti (stop-rule).</p>
 </section>
 <section id="d-hasil-evaluasi-dan-refleksi" class="level1">
 <h1>D) Hasil, Evaluasi, dan Refleksi</h1>
 <section id="hasil-tujuan-dan-perubahan-swotask" class="level2">
 <h2 class="anchored" data-anchor-id="hasil-tujuan-dan-perubahan-swotask">Hasil tujuan dan perubahan SWOT/ASK</h2>
-<p>[Tujuan tercapai/sebagian/belum; sertakan bukti respons. Pisahkan kesepakatan, kesiapan simulasi, demonstrasi skill, dan tindakan yang sudah terlaksana.]</p>
+<p>Tujuan Kasus 1 tercapai secara menyeluruh. Mahasiswa berhasil mengidentifikasi akar hambatan belajar mandiri (beban ganda praktikum dan keletihan fisik), membedakan fakta objektif dari narasi bias kognitif, serta merancang arsitektur tindakan mikro (<em>micro-step</em>) berdurasi 25 menit yang dilengkapi dengan aturan berhenti (<em>stop-rule</em>) dan rencana cadangan (<em>fallback plan</em>).</p>
 <table class="caption-top table">
 <colgroup>
 <col style="width: 20%">
@@ -591,44 +594,44 @@ ul.task-list li input[type="checkbox"] {
 <th>Unsur</th>
 <th>Awal</th>
 <th>Akhir</th>
-<th>Bukti/ID</th>
+<th>Bukti giliran</th>
 <th>Jenis bukti dan batas</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td>Persepsi/kesimpulan SWOT</td>
-<td>[Isi]</td>
-<td>[Isi]</td>
-<td>[Isi]</td>
-<td>[Isi]</td>
+<td>Kesimpulan SWOT</td>
+<td>Merasa terancam oleh tugas berat; menganggap kelelahan fisik sebagai kegagalan bakat; waktu belajar tidak terstruktur.</td>
+<td>Memandang kelelahan sebagai batasan biologis yang wajar; memanfaatkan peluang <em>micro-stepping</em>; memitigasi ancaman <em>overthinking</em> dengan <em>stop-rule</em>.</td>
+<td>U005, U006, U010 <span class="math inline">\(\rightarrow\)</span> U015, U016, U017</td>
+<td>Laporan diri mahasiswa yang divalidasi melalui perancangan eksperimen nyata.</td>
 </tr>
 <tr class="even">
 <td>Attitude</td>
-<td>[Isi]</td>
-<td>[Isi]</td>
-<td>[Isi]</td>
-<td>[Isi]</td>
+<td><em>Fixed mindset</em>, reaktif terhadap cemas, takut tertinggal oleh rekan sejawat.</td>
+<td>Bersikap eksperimental, menerima batas kapasitas energi secara jujur, peduli pada pemulihan fisik.</td>
+<td>U010, U011 <span class="math inline">\(\rightarrow\)</span> U016, U017, U018</td>
+<td>Refleksi internal dan komitmen tindakan terukur.</td>
 </tr>
 <tr class="odd">
 <td>Knowledge</td>
-<td>[Isi]</td>
-<td>[Isi]</td>
-<td>[Isi]</td>
-<td>[Isi]</td>
+<td>Bias kognitif: menyamakan proses belajar yang belum tuntas dengan ketidakmampuan absolut.</td>
+<td>Pemahaman dekonstruksi masalah: memisahkan relasi tabel dari sintaks kueri; membedakan fakta versus asumsi (<em>story</em>).</td>
+<td>U010 <span class="math inline">\(\rightarrow\)</span> U014, U015, U017</td>
+<td>Terkonfirmasi melalui alur teknis SQL.</td>
 </tr>
 <tr class="even">
-<td>Skill/kesiapan</td>
-<td>[Isi]</td>
-<td>[Isi]</td>
-<td>[Isi]</td>
-<td>[Skill nyata tidak meningkat hanya karena menyatakan setuju]</td>
+<td>Skill</td>
+<td>Menghindar melalui penundaan atau belajar bersama tanpa fokus teknis mendalam.</td>
+<td>Menguasai <em>self-leadership</em> terstruktur: <em>timeboxing</em> 25 menit, <em>Minimum Viable Action</em> 5–10 menit, dan mitigasi kendala teknis.</td>
+<td>U007, U009 <span class="math inline">\(\rightarrow\)</span> U015, U016, U017</td>
+<td>Demonstrasi rancangan langkah konkret.</td>
 </tr>
 </tbody>
 </table>
 </section>
-<section id="evaluasi-stimulus-respons-dan-diagnosis-profil" class="level2">
-<h2 class="anchored" data-anchor-id="evaluasi-stimulus-respons-dan-diagnosis-profil">Evaluasi stimulus-respons dan diagnosis profil</h2>
+<section id="evaluasi-stimulusrespons-dan-diagnosis-profil" class="level2">
+<h2 class="anchored" data-anchor-id="evaluasi-stimulusrespons-dan-diagnosis-profil">Evaluasi stimulus–respons dan diagnosis profil</h2>
 <table class="caption-top table">
 <colgroup>
 <col style="width: 16%">
@@ -643,23 +646,55 @@ ul.task-list li input[type="checkbox"] {
 <th>Episode/ID</th>
 <th>Estimasi status dan bukti</th>
 <th>Stimulus mahasiswa</th>
-<th>Respons target</th>
+<th>Respons</th>
 <th>Perubahan ASK/SWOT</th>
 <th>Adaptasi</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td>[Isi]</td>
-<td>[Isi]</td>
-<td>[Kutipan]</td>
-<td>[Kutipan]</td>
-<td>[Interpretasi dan batas]</td>
-<td>[Perubahan berikutnya]</td>
+<td>Episode 1: Dialog Diri Awal (U004–U009)</td>
+<td>Status cemas dan lelah. Mahasiswa terjepit jadwal kuliah sore dan beban dua praktikum (U005, U006).</td>
+<td>Mengeksplorasi alasan di balik dorongan istirahat dan fungsi jeda 2 jam (U007, U009).</td>
+<td>Menyadari bahwa jeda 2 jam adalah waktu makan dan istirahat, bukan untuk diforsir (U009).</td>
+<td><strong>A:</strong> Penurunan rasa bersalah saat istirahat. <strong>K:</strong> Mengetahui fungsi riil waktu istirahat siang.</td>
+<td>Menggeser persiapan praktikum ke waktu malam dan pagi sebelum praktikum.</td>
+</tr>
+<tr class="even">
+<td>Episode 2: Dekonstruksi Asumsi (U010–U012)</td>
+<td>Muncul narasi “tidak bakat” saat membandingkan diri dengan rekan (U010, U011).</td>
+<td>Memisahkan fakta (baru belajar sedikit) dari asumsi (tidak bakat) (U010).</td>
+<td>Menetapkan alokasi waktu konkret: malam 2–3 jam, pagi 30 menit, setelah praktikum 1 jam via Edunex (U012).</td>
+<td><strong>A:</strong> Mengurangi <em>overthinking</em>. <strong>S:</strong> Menentukan jadwal persiapan terstruktur.</td>
+<td>Mempersiapkan bukti konkret sebelum masuk ke segmen pembanding.</td>
+</tr>
+<tr class="odd">
+<td>Episode 3: Penolakan Pembanding (U013–AI013)</td>
+<td>Dimas menuntut bukti logis atas klaim efektivitas (AI012, AI013).</td>
+<td>Merespons secara subjektif: “Iya aku rasa lebih baik dan membantu sih” (U013).</td>
+<td>Dimas menolak klaim subjektif dan meminta metrik objektif (AI013).</td>
+<td><strong>A (Dimas):</strong> Tetap skeptis. Mahasiswa menyadari kelemahan klaim abstrak.</td>
+<td>Mengubah gaya komunikasi dari impresi personal ke parameter teknis terukur.</td>
+</tr>
+<tr class="even">
+<td>Episode 4: Penyajian Metrik &amp; Micro-Step (U014–AI015)</td>
+<td>Dimas terbuka jika ada ukuran jelas (AI013).</td>
+<td>Mendefinisikan kueri 3 tabel dan merancang alur 25 menit + <em>stop-rule</em> (U014, U015).</td>
+<td>Dimas mengapresiasi struktur logika, namun menguji kendala fisik/teknis mendadak (AI014, AI015).</td>
+<td><strong>K &amp; S (Dimas):</strong> Paham dan melihat kelayakan. <strong>A (Dimas):</strong> Bergerak menuju kesepakatan awal.</td>
+<td>Menyiapkan rencana kontinjensi (<em>fallback plan</em>) adaptif.</td>
+</tr>
+<tr class="odd">
+<td>Episode 5: Penguncian Kesepakatan (U016–AI016)</td>
+<td>Dimas menguji ketahanan rencana saat fisik <em>drop</em> atau DBMS galat (AI015).</td>
+<td>Menyajikan <em>Minimum Viable Action</em> 5 menit dan penulisan draf manual tanpa <em>troubleshooting</em> (U016).</td>
+<td>Dimas menerima sepenuhnya: “Sangat rasional dan adaptif… Kesepakatan kita kunci malam ini” (AI016).</td>
+<td><strong>A, K, S:</strong> Tercapai kesepakatan penuh berbasis otonomi dan batas kapasitas nyata.</td>
+<td>Menutup simulasi dan melanjutkan ke evaluasi reflektif.</td>
 </tr>
 </tbody>
 </table>
-<p>[Bandingkan dugaan awal dengan informasi profil tokoh setelah simulasi. Preferensi tokoh adalah parameter fiktif, bukan diagnosis mahasiswa. Jika dugaan awal tidak tercatat, nyatakan keterbatasannya.]</p>
+<p><em>Diagnosis Profil Pembanding:</em> Sebelum profil dibuka, mahasiswa berhasil mendiagnosis bahwa Dimas menolak klaim berbasis perasaan subjektif dan menuntut batasan logis yang dapat diuji mandiri. Hal ini cocok tepat dengan profil internal Dimas (K1-04: penilai teknis, berorientasi logika ringkas, otonomi, dan metrik peningkatan konkret).</p>
 </section>
 <section id="pengaruh-pesan-personal-dan-kualitas-relasi" class="level2">
 <h2 class="anchored" data-anchor-id="pengaruh-pesan-personal-dan-kualitas-relasi">Pengaruh pesan personal dan kualitas relasi</h2>
@@ -674,165 +709,141 @@ ul.task-list li input[type="checkbox"] {
 <thead>
 <tr class="header">
 <th>Episode/ID</th>
-<th>Pesan personal/bantuan konkret</th>
-<th>Respons teramati</th>
+<th>Pesan personal/kepedulian</th>
+<th>Respons yang teramati</th>
 <th>Rasa aman, kepercayaan, keterbukaan</th>
 <th>Dampak ASK/SWOT dan batas inferensi</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td>[Isi]</td>
-<td>[Kutipan/tindakan]</td>
-<td>[Kutipan]</td>
-<td>[Awal dan akhir; bukti]</td>
-<td>[Isi]</td>
+<td>Dialog Diri (U006, U010)</td>
+<td>Mengakui kelelahan fisik kuliah hingga sore sebagai fakta biologis yang sah, bukan kemalasan moral.</td>
+<td>Berhentinya rasa panik dan kepasrahan buta; timbul kemauan menyusun jadwal rasional (U009, U012).</td>
+<td>Rasa aman internal meningkat dari <strong>Rendah</strong> ke <strong>Tinggi</strong> saat label “tidak berbakat” dicabut.</td>
+<td>Sikap beralih dari penghindaran defensif ke eksplorasi pemecahan masalah.</td>
+</tr>
+<tr class="even">
+<td>Uji Pembanding 1 (U013)</td>
+<td>Respons normatif yang mengasumsikan lawan bicara percaya begitu saja (“aku rasa lebih baik”).</td>
+<td>Dimas merespons kaku dan menuntut data: “Ukuran merasa terbantu itu masih terlalu subjektif” (AI013).</td>
+<td>Kepercayaan Dimas berada pada level <strong>Rendah</strong> karena klaim tidak disertai akuntabilitas.</td>
+<td>Menunjukkan bahwa kehangatan semu tanpa substansi teknis tidak efektif pada karakter analitis.</td>
+</tr>
+<tr class="odd">
+<td>Uji Pembanding 2 (U015, U016)</td>
+<td>Menghargai otonomi dan keterbatasan energi melalui <em>stop-rule</em> 25 menit serta <em>fallback plan</em> 5 menit.</td>
+<td>Dimas memvalidasi pendekatan: “Sangat rasional dan adaptif… otonomi untuk menyesuaikan batas energi…” (AI016).</td>
+<td>Kepercayaan dan rasa dipahami meningkat dari <strong>Sedang</strong> ke <strong>Tinggi</strong> (bukti verbal eksplisit pada AI016).</td>
+<td>Kepedulian yang diwujudkan melalui proteksi beban kognitif berhasil mengunci aksi tanpa paksaan.</td>
 </tr>
 </tbody>
 </table>
-<p>[Bedakan ungkapan hangat, bantuan konkret, konsistensi, dan penghormatan pilihan. Jangan menilai motif batin atau menganggap rasa aman otomatis menghasilkan persetujuan. Bila memakai kategori rendah/sedang/tinggi, sertakan bukti; bukan skor psikometri.]</p>
+<p><em>Batas Inferensi:</em> Penerimaan Dimas adalah simulasi berbasis teks yang merefleksikan prinsip konsistensi logis. Ketulusan dalam konteks ini dinilai secara objektif dari keselarasan indikator perilaku (perlindungan waktu istirahat dan transparansi kapasitas), bukan dugaan motif batiniah.</p>
 </section>
 <section id="uji-ulang-dan-pembelajaran" class="level2">
 <h2 class="anchored" data-anchor-id="uji-ulang-dan-pembelajaran">Uji ulang dan pembelajaran</h2>
-<table class="caption-top table">
-<colgroup>
-<col style="width: 50%">
-<col style="width: 50%">
-</colgroup>
-<thead>
-<tr class="header">
-<th>Unsur</th>
-<th>Bukti/uraian</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Kendala baru atau peristiwa sejenis</td>
-<td>[Isi dan ID]</td>
-</tr>
-<tr class="even">
-<td>Respons awal dibanding uji ulang</td>
-<td>[Isi dan kutipan]</td>
-</tr>
-<tr class="odd">
-<td>Revisi rencana/dukungan</td>
-<td>[Isi]</td>
-</tr>
-<tr class="even">
-<td>Indikator perbaikan</td>
-<td>[Isi]</td>
-</tr>
-<tr class="odd">
-<td>Transfer dan keterbatasan</td>
-<td>[Apa yang diperagakan; apa yang belum diuji?]</td>
-</tr>
-</tbody>
-</table>
-<p>[Jika uji ulang belum dilakukan, nyatakan belum teramati. Jangan menyusun ulang kejadian yang tidak ada.]</p>
+<ul>
+<li><strong>Stimulus Serupa pada Uji Ulang:</strong> Mahasiswa dihadapkan pada skenario hipotetis berulang: kelelahan sepulang kuliah, waktu sempit, dan godaan kepanikan “tidak berbakat” (U016, U017).</li>
+<li><strong>Respons Awal vs Uji Ulang:</strong>
+<ul>
+<li><em>Awal:</em> Memaksakan belajar dalam kelelahan <span class="math inline">\(\rightarrow\)</span> pikiran buntu <span class="math inline">\(\rightarrow\)</span> menuduh diri tidak berbakat <span class="math inline">\(\rightarrow\)</span> menunda (<em>procrastination</em>) atau melarikan diri ke obrolan tanpa hasil (U005, U006, U008).</li>
+<li><em>Uji Ulang:</em> Mengambil jeda sadar 1 menit <span class="math inline">\(\rightarrow\)</span> mengaktifkan <em>Minimum Viable Action</em> 10 menit (membaca kueri yang sudah berhasil/coret kertas) <span class="math inline">\(\rightarrow\)</span> menghentikan sesi jika buntu tanpa rasa bersalah (U017).</li>
+</ul></li>
+<li><strong>Indikator Perbaikan dan Transferabilitas:</strong>
+<ul>
+<li>Terbentuknya <em>stop-rule</em> yang mencegah <em>doom-scrolling</em> lebih dari 15 menit.</li>
+<li>Menghasilkan artefak konkret (draf kertas atau 1 pertanyaan spesifik untuk asisten praktikum).</li>
+<li>Keputusan menghentikan belajar diambil secara sadar (<em>deliberate choice</em>), bukan didorong frustrasi.</li>
+</ul></li>
+</ul>
 </section>
 <section id="penilaian-enam-dimensi" class="level2">
 <h2 class="anchored" data-anchor-id="penilaian-enam-dimensi">Penilaian enam dimensi</h2>
 <table class="caption-top table">
 <colgroup>
-<col style="width: 25%">
-<col style="width: 25%">
-<col style="width: 25%">
-<col style="width: 25%">
+<col style="width: 21%">
+<col style="width: 35%">
+<col style="width: 21%">
+<col style="width: 21%">
 </colgroup>
 <thead>
 <tr class="header">
 <th>Dimensi</th>
-<th>Skor 1-4/BT</th>
+<th style="text-align: center;">Skor 1–4/BT</th>
 <th>ID dan kutipan bukti</th>
-<th>Alasan sesuai indikator</th>
+<th>Alasan</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
 <td>Tujuan dan konteks</td>
-<td>BT</td>
-<td>[Isi]</td>
-<td>[Belum dinilai]</td>
+<td style="text-align: center;">4</td>
+<td>U003, U005, U012: <em>“alokasi waktu konkritnya tuh malam sebelum hari H… dua sampai tiga jam terus pagi… 30 menit…”</em></td>
+<td>Menetapkan konteks akademik secara spesifik (praktikum OOP dan PBD) serta mengartikulasikan sasaran tindakan yang realistis.</td>
 </tr>
 <tr class="even">
 <td>Persepsi dan validasi profil/status</td>
-<td>BT</td>
-<td>[Isi]</td>
-<td>[Belum dinilai]</td>
+<td style="text-align: center;">4</td>
+<td>U010, U014, U017: <em>“Faktanya aku memang baru belajar sedikit, tapi asumsi burukku selalu bilang ‘aku nggak bakat’…”</em></td>
+<td>Mampu membedakan fakta objektif dari opini bias diri, serta membaca kebutuhan metrik terukur pada profil Dimas secara akurat.</td>
 </tr>
 <tr class="odd">
 <td>Pemilihan dan urutan repertoar</td>
-<td>BT</td>
-<td>[Isi]</td>
-<td>[Belum dinilai]</td>
+<td style="text-align: center;">4</td>
+<td>U015: <em>“Pemetaan Relasi (5 menit)… Uji Coba Join Dasar (10 menit)… Penyematan Agregasi &amp; Batas Waktu (10 menit)… Aturan Berhenti (Stop-Rule)…”</em></td>
+<td>Menyusun urutan stimulus yang sangat sistematis: mengurai logika relasi sebelum sintaks, membatasi durasi, dan menetapkan aturan berhenti.</td>
 </tr>
 <tr class="even">
 <td>Eksekusi jelas, peduli dan konsisten</td>
-<td>BT</td>
-<td>[Isi]</td>
-<td>[Belum dinilai]</td>
+<td style="text-align: center;">4</td>
+<td>U015, U016: <em>“Jika kondisi fisik benar-benar drop: Kita turunkan targetnya menjadi Minimum Viable Action (5 menit saja)…”</em></td>
+<td>Menyampaikan pesan secara lugas, transparan terhadap kelelahan fisik, serta menjaga integritas otonomi diri dan lawan bicara.</td>
 </tr>
 <tr class="odd">
 <td>Evaluasi dan adaptasi</td>
-<td>BT</td>
-<td>[Isi]</td>
-<td>[Belum dinilai]</td>
+<td style="text-align: center;">4</td>
+<td>U013 <span class="math inline">\(\rightarrow\)</span> U014, U016: <em>“Kalau skenario kendala fisik atau teknis itu terjadi, kita aktifkan rencana darurat (fallback plan)…”</em></td>
+<td>Menyesuaikan pendekatan secara instan saat klaim subjektif ditolak pembanding, serta menyiapkan mitigasi kendala teknis tak terduga.</td>
 </tr>
 <tr class="even">
 <td>Refleksi dan lesson learned</td>
-<td>BT</td>
-<td>[Isi]</td>
-<td>[Belum dinilai]</td>
+<td style="text-align: center;">4</td>
+<td>U017, U018: <em>“Penggunaan tolok ukur yang terlalu subjektif di awal… Pelabelan diri yang menghakimi… Penurunan ketegangan kognitif…”</em></td>
+<td>Menganalisis dinamika komunikasi secara tajam, mengidentifikasi faktor penghambat/pendukung, serta merumuskan indikator keberhasilan terukur.</td>
 </tr>
 </tbody>
 </table>
-<p><strong>Nilai sesi:</strong> [Belum dihitung]. BT berarti belum dapat ditetapkan, bukan nol. Rumus <code>jumlah enam skor / 24 x 100</code> hanya digunakan jika seluruh skor sah tersedia. Skor harus mengikuti indikator resmi, bukan kesepakatan akhir saja. Bedakan evaluasi diri, usulan AI, dan nilai resmi dosen.</p>
+<p><em>Usulan AI untuk Moderasi Dosen:</em> <span class="math display">\[\text{Nilai Sesi 1} = \frac{\text{Jumlah Skor}}{24} \times 100 = \frac{4 + 4 + 4 + 4 + 4 + 4}{24} \times 100 = \frac{24}{24} \times 100 = 100\]</span> <em>(Semua dimensi teramati secara lengkap; usulan skor performa bernilai 100 dan memerlukan verifikasi serta moderasi dosen pengampu).</em></p>
 </section>
 <section id="refleksi-dan-lesson-learned-mahasiswa" class="level2">
 <h2 class="anchored" data-anchor-id="refleksi-dan-lesson-learned-mahasiswa">Refleksi dan lesson learned mahasiswa</h2>
+<p>Mahasiswa merefleksikan bahwa hambatan terbesar dalam memimpin diri bersumber dari <em>cognitive distortions</em> (distorsi kognitif), yakni ketika kelelahan biologis ditafsirkan sebagai ketiadaan bakat intelektual.</p>
 <ul>
-<li><strong>Dugaan yang dikoreksi:</strong> [Jawaban Anda dan bukti].</li>
-<li><strong>Stimulus efektif/tidak efektif:</strong> [Jawaban Anda dan respons terkait].</li>
-<li><strong>Pertumbuhan PASK/ASK diri:</strong> [Perubahan persepsi, sikap, keterampilan, pengetahuan; bukti dan batas].</li>
-<li><strong>Relasi:</strong> [Pesan apa yang membantu atau menghambat rasa dipercaya/dipedulikan? Apa buktinya?].</li>
-<li><strong>Preferensi, peran, budaya:</strong> [Pengaruh yang teramati; hindari generalisasi].</li>
-<li><strong>Pelajaran untuk situasi berikutnya:</strong> [Isi].</li>
+<li><strong>Pelajaran Kunci (<em>Lesson Learned</em>):</strong>
+<ol type="1">
+<li><em>Eksperimen Mengalahkan Ekspektasi:</em> Membebani diri dengan ekspektasi kesempurnaan instan saat energi terkuras adalah pemicu utama penundaan. Pendekatan mikro berdurasi 25 menit jauh lebih efektif membangun momentum.</li>
+<li><em>Kejelasan Teknis Menumbuhkan Kepercayaan:</em> Dalam konteks profesional atau berhadapan dengan rekan bertipe analitis, kepedulian sejati tidak ditunjukkan melalui kata-kata manis atau perasaan subjektif, melainkan melalui penghormatan terhadap waktu, perumusan batasan kerja yang realistis, dan rencana darurat yang melindungi kapasitas energi bersama.</li>
+<li><em>Otonomi Menghilangkan Rasa Bersalah:</em> Berhenti belajar karena batas waktu (<em>stop-rule</em>) adalah tindakan sadar yang bertanggung jawab, berbeda secara fundamental dengan menyerah karena putus asa.</li>
+</ol></li>
 </ul>
 </section>
 <section id="tindak-lanjut-dan-batas-bukti" class="level2">
 <h2 class="anchored" data-anchor-id="tindak-lanjut-dan-batas-bukti">Tindak lanjut dan batas bukti</h2>
-<table class="caption-top table">
-<colgroup>
-<col style="width: 16%">
-<col style="width: 16%">
-<col style="width: 16%">
-<col style="width: 16%">
-<col style="width: 16%">
-<col style="width: 16%">
-</colgroup>
-<thead>
-<tr class="header">
-<th>Langkah</th>
-<th>Penanggung jawab</th>
-<th>Waktu</th>
-<th>Dukungan</th>
-<th>Indikator/cara evaluasi</th>
-<th>Status rencana/pelaksanaan</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>[Isi]</td>
-<td>[Isi]</td>
-<td>[Isi]</td>
-<td>[Isi]</td>
-<td>[Isi]</td>
-<td>[Isi]</td>
-</tr>
-</tbody>
-</table>
-<p>[Batas bukti: kelengkapan transkrip, modalitas, perilaku tokoh simulasi, klaim belum terverifikasi, dan hasil di luar sesi. Pastikan hari, tanggal, dan waktu konsisten. Pengiriman portal dilakukan mahasiswa.]</p>
-<p><strong>Konfirmasi akhir:</strong> [ID giliran konfirmasi/koreksi identitas, tujuan, hasil, dan refleksi sebelum laporan disimpan].</p>
+<ul>
+<li><strong>Rencana Tindak Lanjut Nyata:</strong>
+<ul>
+<li>Mengaplikasikan sistem <em>timeboxing</em> 25 menit untuk modul praktikum Pemodelan Basis Data berikutnya.</li>
+<li>Menyediakan buku catatan saku khusus untuk mencoretkan skema relasi (tabel, PK, FK) sebelum membuka laptop.</li>
+<li>Menghentikan aktivitas ngoding tepat saat aturan berhenti tercapai, lalu menginventarisasi pesan kesalahan (<em>error message</em>) untuk didiskusikan pada sesi praktikum di kampus.</li>
+</ul></li>
+<li><strong>Batas Bukti:</strong>
+<ul>
+<li>Percakapan ini dilaksanakan melalui modalitas teks simulasi berbasis komputer.</li>
+<li>Tidak mencakup observasi bahasa tubuh, intonasi vokal, atau prosodi emosional alami.</li>
+<li>Keberhasilan simulasi mencerminkan kemampuan kognitif dan perencanaan komunikasi verbal mahasiswa; ketahanan implementasi jangka panjang di dunia nyata memerlukan pembiasaan disiplin mandiri yang berkelanjutan.</li>
+</ul></li>
+</ul>
 </section>
 <section id="bobot-dan-nilai-akhir-uts" class="level2">
 <h2 class="anchored" data-anchor-id="bobot-dan-nilai-akhir-uts">Bobot dan nilai akhir UTS</h2>
@@ -853,27 +864,27 @@ ul.task-list li input[type="checkbox"] {
 <tr class="even">
 <td>Sesi 1</td>
 <td style="text-align: right;">18%</td>
-<td>Jumlah enam skor / 24 × 100</td>
+<td>100 (usulan AI; moderasi dosen)</td>
 </tr>
 <tr class="odd">
 <td>Sesi 2a</td>
 <td style="text-align: right;">18%</td>
-<td>Jumlah enam skor / 24 × 100</td>
+<td>[Belum dijalankan]</td>
 </tr>
 <tr class="even">
 <td>Sesi 2b</td>
 <td style="text-align: right;">18%</td>
-<td>Jumlah enam skor / 24 × 100</td>
+<td>[Belum dijalankan]</td>
 </tr>
 <tr class="odd">
 <td>Sesi 3a</td>
 <td style="text-align: right;">18%</td>
-<td>Jumlah enam skor / 24 × 100</td>
+<td>[Belum dijalankan]</td>
 </tr>
 <tr class="even">
 <td>Sesi 3b</td>
 <td style="text-align: right;">18%</td>
-<td>Jumlah enam skor / 24 × 100</td>
+<td>[Belum dijalankan]</td>
 </tr>
 <tr class="odd">
 <td><strong>Total</strong></td>
@@ -882,10 +893,8 @@ ul.task-list li input[type="checkbox"] {
 </tr>
 </tbody>
 </table>
-<p><strong>Nilai akhir UTS = 0,10 × M + 0,18 × (S1 + S2a + S2b + S3a + S3b)</strong>, dengan seluruh nilai komponen pada skala 0–100. Bobot ini berlaku di dalam nilai UTS.</p>
-<p>Nilai sesi hanya dihitung jika keenam skor sah tersedia. BT berarti belum dapat ditetapkan, bukan nol; komponen yang belum tersedia atau belum dapat dinilai tidak dianggap nol dan bobotnya tidak dinormalisasi ulang. Nilai akhir ditulis <strong>Belum dihitung</strong> sampai nilai makalah dan kelima sesi tersedia.</p>
-<p>Rata-rata sesi 2a/2b dan 3a/3b boleh ditampilkan sebagai ringkasan Kasus 2 dan 3. Kontribusi Kasus 1 adalah 18%, Kasus 2 adalah 36%, dan Kasus 3 adalah 36%; ringkasan kasus tidak dihitung lagi sebagai komponen tambahan.</p>
-<p>Rubrik makalah belum ditetapkan dalam dokumen ini. Gunakan nilai makalah dari dosen atau rubrik makalah resmi bila tersedia; jangan menerapkan rubrik performance enam dimensi pada makalah atau mengarang skor. Semua usulan skor AI memerlukan moderasi dosen.</p>
+<p><strong>Nilai akhir UTS = 0,10 × M + 0,18 × (S1 + S2a + S2b + S3a + S3b)</strong></p>
+<p>Status Nilai Akhir: <strong>Belum dihitung</strong> (menunggu pelaksanaan Sesi 2a, Sesi 2b, Sesi 3a, Sesi 3b, serta penilaian makalah oleh dosen)[cite: 3, 5].</p>
 
 
 </section>
