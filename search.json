@@ -6891,7 +6891,7 @@
     "href": "portfolio/week-09.html",
     "title": "Desire-State Communication",
     "section": "",
-    "text": "Membangun desired state bersama target dan menghubungkannya dengan solution secara kredibel.",
+    "text": "Membangun rumusan desired state bersama target secara dialogis dan menghubungkannya dengan mekanisme solusi secara kredibel melalui pengakuan risiko, tangga bukti, dan pengujian kesiapan batin (Desire) tanpa manipulasi.",
     "crumbs": [
       "Beranda",
       "Desire-State Communication"
@@ -6902,73 +6902,51 @@
     "href": "portfolio/week-09.html#kompetensi-target",
     "title": "Desire-State Communication",
     "section": "",
-    "text": "Membangun desired state bersama target dan menghubungkannya dengan solution secara kredibel.",
+    "text": "Membangun rumusan desired state bersama target secara dialogis dan menghubungkannya dengan mekanisme solusi secara kredibel melalui pengakuan risiko, tangga bukti, dan pengujian kesiapan batin (Desire) tanpa manipulasi.",
     "crumbs": [
       "Beranda",
       "Desire-State Communication"
     ]
   },
   {
-    "objectID": "portfolio/week-09.html#evidence-wajib",
-    "href": "portfolio/week-09.html#evidence-wajib",
+    "objectID": "portfolio/week-09.html#current-dan-desired-state",
+    "href": "portfolio/week-09.html#current-dan-desired-state",
     "title": "Desire-State Communication",
-    "section": "Evidence wajib",
-    "text": "Evidence wajib\n\nCurrent dan desired state milik person.\nFeature–benefit–value–outcome chain.\nRisk, evidence threshold, response, dan adaptation.\n\n\n\n\n\n\n\nTipLihat contoh pengisian\n\n\n\nBuka contoh fiktif Minggu 9 untuk melihat tingkat kekonkretan evidence dan analisis. Jangan menyalin contoh sebagai evidence pribadi.",
+    "section": "Current dan Desired State",
+    "text": "Current dan Desired State\n\n\n\n\n\n\n\nElemen\nRumusan Target (Kasir Stan Kantin), Bukan Asumsi Penulis\n\n\n\n\nCurrent state\nKasir melayani pesanan manual sambil berulang kali mengonfirmasi lauk yang tersisa dan menunggu pembeli membuka aplikasi pembayaran; antrean menumpuk dan sering terjadi komplain salah ambil pesanan saat jam puncak (12.00–12.40).\n\n\nDesired state\nTransaksi di meja saji selesai dalam waktu kurang dari 30 detik per orang tanpa kasir perlu mengingat atau menulis ulang pesanan, dan tidak ada pesanan tertukar meskipun variasi lauk berganti di tengah jam layanan.\n\n\nValue\nMenurunkan tingkat kelelahan mental kasir pada jam sibuk, menjaga ritme penggorengan dapur tetap stabil, serta memberikan kepastian waktu makan bagi mahasiswa.\n\n\nAcceptable risk\nUji coba terbatas selama 3 hari pada 15 transaksi pertama per hari; bila alur slip pesanan justru memperlambat antrean atau memicu kebingungan pembeli, sistem dapat langsung dihentikan saat itu juga tanpa kerugian finansial.\n\n\nEvidence threshold\nNol insiden salah catat menu, tidak ada pembeli yang mencentang lauk yang sudah habis, dan waktu transaksi di kasir terpangkas minimal sepertiga dari durasi biasa.",
     "crumbs": [
       "Beranda",
       "Desire-State Communication"
     ]
   },
   {
-    "objectID": "portfolio/week-09.html#konteks-performance",
-    "href": "portfolio/week-09.html#konteks-performance",
+    "objectID": "portfolio/week-09.html#featurebenefitvalueoutcome-chain",
+    "href": "portfolio/week-09.html#featurebenefitvalueoutcome-chain",
     "title": "Desire-State Communication",
-    "section": "Konteks performance",
-    "text": "Konteks performance\nTanggal dan setting: Ganti dengan tanggal, tempat, dan bentuk kegiatan.\nPersons dan relationship: Jelaskan siapa yang terlibat tanpa membuka data pribadi yang tidak diperlukan.\nObjective dan initial state: Nyatakan perubahan yang ingin dicapai serta evidence state awal.",
+    "section": "Feature–Benefit–Value–Outcome Chain",
+    "text": "Feature–Benefit–Value–Outcome Chain\nSlip menu fisik + penanda lauk habis dinamis \\(\\rightarrow\\) pembeli memilih lauk dan menyiapkan pembayaran sebelum tiba di kasir \\(\\rightarrow\\) kasir menerima pesanan yang sudah pasti tanpa tanya-jawab berulang \\(\\rightarrow\\) waktu layanan per orang terpangkas dan antrean mengalir lancar \\(\\rightarrow\\) ritme kerja kasir lebih tenang dan mahasiswa tidak terlambat masuk kuliah siang.\nCatatan Kritis: Rantai di atas disajikan sebagai rangkaian hipotesis sebab-akibat yang bergantung pada kepatuhan pembeli membaca penanda stok, bukan jaminan kepastian mutlak.",
     "crumbs": [
       "Beranda",
       "Desire-State Communication"
     ]
   },
   {
-    "objectID": "portfolio/week-09.html#evidence",
-    "href": "portfolio/week-09.html#evidence",
+    "objectID": "portfolio/week-09.html#percakapan-dan-response",
+    "href": "portfolio/week-09.html#percakapan-dan-response",
     "title": "Desire-State Communication",
-    "section": "Evidence",
-    "text": "Evidence\n\nTambahkan link, gambar, video, transcript, artefak, catatan observer, atau bukti tindakan. Jelaskan bagian mana yang merupakan kontribusi Anda.",
+    "section": "Percakapan dan Response",
+    "text": "Percakapan dan Response\n\nKomunikator: “Jika uji coba slip pesanan dan penanda menu ini kita terapkan besok, keadaan seperti apa yang sebenarnya paling Ibu harapkan terjadi di stan?”\nTarget (Kasir): “Bukan cuma antreannya jadi lebih pendek. Yang paling penting buat saya adalah tidak ada pembeli yang protes karena lauknya habis setelah mereka lama antre, dan saya tidak perlu pusing mengecek sisa porsi di baskom belakang setiap lima menit.”\nKomunikator: “Berarti rancangan kemarin masih gagal jika slip pesanan diletakkan di depan tanpa sinkronisasi langsung dengan stok yang ada di wajan penggorengan?”\nTarget: “Iya, betul. Kalau pembeli sudah senang mencentang ayam bakar tapi pas di depan ternyata habis, mereka malah makin kecewa dan saya yang kena marah.”\n\n\nAdaptasi Solusi Berdasarkan Dialog\nMekanisme disesuaikan secara substantif: alih-alih menggunakan daftar menu lengkap statis, slip pesanan dibagi menjadi dua zona (Lauk Utama & Menu Cepat). Disediakan klip penanda fisik berwarna merah di dekat kotak slip yang dipindahkan oleh staf dapur saat porsi lauk tersisa 3 porsi terakhir. Desired state resmi bergeser dari sekadar “antrean berkurang” menjadi “transaksi cepat tanpa risiko kekecewaan akibat stok habis”.",
     "crumbs": [
       "Beranda",
       "Desire-State Communication"
     ]
   },
   {
-    "objectID": "portfolio/week-09.html#analisis-komunikasi",
-    "href": "portfolio/week-09.html#analisis-komunikasi",
+    "objectID": "portfolio/week-09.html#risk-dan-evidence",
+    "href": "portfolio/week-09.html#risk-dan-evidence",
     "title": "Desire-State Communication",
-    "section": "Analisis komunikasi",
-    "text": "Analisis komunikasi\n\n\n\nElemen\nEvidence dan analisis\n\n\n\n\nPerson & character\nGanti dengan analisis Anda.\n\n\nObjective & state\nGanti dengan analisis Anda.\n\n\nRepertoire & language\nGanti dengan analisis Anda.\n\n\nResponse & adaptation\nGanti dengan analisis Anda.\n\n\nAgreement/action\nGanti dengan analisis Anda.\n\n\nRelationship outcome\nGanti dengan analisis Anda.",
-    "crumbs": [
-      "Beranda",
-      "Desire-State Communication"
-    ]
-  },
-  {
-    "objectID": "portfolio/week-09.html#penggunaan-ai",
-    "href": "portfolio/week-09.html#penggunaan-ai",
-    "title": "Desire-State Communication",
-    "section": "Penggunaan AI",
-    "text": "Penggunaan AI\nNyatakan Tidak menggunakan AI atau jelaskan:\n\nalat dan peran AI;\nprompt atau instruksi penting;\nbagian output yang digunakan, diubah, atau ditolak;\npemeriksaan accuracy, privacy, dan authority;\napa yang tetap Anda pelajari sebagai manusia.",
-    "crumbs": [
-      "Beranda",
-      "Desire-State Communication"
-    ]
-  },
-  {
-    "objectID": "portfolio/week-09.html#feedback-dan-tindak-lanjut",
-    "href": "portfolio/week-09.html#feedback-dan-tindak-lanjut",
-    "title": "Desire-State Communication",
-    "section": "Feedback dan tindak lanjut",
-    "text": "Feedback dan tindak lanjut\nFeedback yang diterima: Ganti dengan kutipan atau ringkasan berbasis evidence.\nAdaptation/replay: Jelaskan apa yang Anda ubah dan response setelah perubahan.\nNext practice: Tetapkan satu perilaku spesifik yang akan dilatih berikutnya.",
+    "section": "Risk dan Evidence",
+    "text": "Risk dan Evidence\nRisiko operasional terbesar adalah keterlambatan staf dapur menandai lauk yang hampir habis ketika kondisi penggorengan sedang sangat padat.\nSafeguard yang Disepakati: 1. Penandaan stok menipis didelegasikan langsung kepada juru masak dengan mekanisme gantungan klip merah sederhana (membutuhkan waktu &lt; 2 detik). 2. Jika terjadi kelalaian penandaan, kasir berhak memprioritaskan penggantian menu tanpa pembeli harus kembali ke belakang antrean.\nTarget menyetujui tahap dry-run simulasi alur internal bersama staf stan sebelum jam buka kantin, bukan langsung menerapkannya pada kerumunan jam 12.00.\nPernyataan Penggunaan AI: AI (Gemini) digunakan untuk mengevaluasi celah logika (logical leaps) pada value chain dan merancang simulasi keberatan operasional kasir. Angka durasi dan kuota uji coba diverifikasi langsung bersama target di lapangan.",
     "crumbs": [
       "Beranda",
       "Desire-State Communication"
@@ -6978,8 +6956,8 @@
     "objectID": "portfolio/week-09.html#self-assessment",
     "href": "portfolio/week-09.html#self-assessment",
     "title": "Desire-State Communication",
-    "section": "Self-assessment",
-    "text": "Self-assessment\n\n\n\nDimensi\nSkor 1–4\nEvidence singkat\n\n\n\n\nPerson & Character\n—\n—\n\n\nObjective & State\n—\n—\n\n\nRepertoire, Language & AI\n—\n—\n\n\nResponse & Adaptation\n—\n—\n\n\nAgreement, Action & Relationship\n—\n—\n\n\n\nTotal: — / 20\n\nAssessment dosen\nSkor: — / 20\nEvidence yang mendukung: —\nPrioritas perbaikan: —\nKeputusan: Belum dinilai / Perlu revisi / Tercapai",
+    "section": "Self-Assessment",
+    "text": "Self-Assessment\n\n\n\n\n\n\n\n\nDimensi\nSkor\nEvidence Singkat\n\n\n\n\nPerson & Character\n3\nDesired state dirumuskan menggunakan bahasa, kekhawatiran nyata, dan nilai ketenangan kerja milik kasir stan.\n\n\nObjective & State\n4\nCurrent state, desired state, risiko batas toleransi, dan ambang bukti (threshold) dinyatakan secara eksplisit dan terukur.\n\n\nRepertoire, Language & AI\n3\nMenyajikan rantai nilai sebagai hipotesis yang dapat diuji; AI dibatasi hanya sebagai penguji konsistensi logika.\n\n\nResponse & Adaptation\n4\nKeberatan kasir terkait risiko kekecewaan stok habis mengubah arsitektur alur pemilahan menu secara substantif.\n\n\nAgreement, Action & Relationship\n3\nMenyepakati dry-run simulasi internal tanpa menuntut komitmen implementasi skala penuh secara tergesa-gesa.\n\n\n\nTotal Skor: 17/20 — Lanjut / Kompeten Tinggi.",
     "crumbs": [
       "Beranda",
       "Desire-State Communication"
