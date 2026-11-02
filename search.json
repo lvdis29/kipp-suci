@@ -6814,7 +6814,7 @@
     "href": "portfolio/week-07.html",
     "title": "Problem–Solution Interest Pitch",
     "section": "",
-    "text": "Menghubungkan solution mechanism dengan problem, benefit, dan value yang relevan.",
+    "text": "Menghubungkan mekanisme solusi (solution mechanism) secara presisi dengan masalah, manfaat langsung (benefit), dan nilai relasional (value) yang relevan bagi target tanpa terjebak pembuangan fitur (feature dumping).",
     "crumbs": [
       "Beranda",
       "Problem–Solution Interest Pitch"
@@ -6825,73 +6825,51 @@
     "href": "portfolio/week-07.html#kompetensi-target",
     "title": "Problem–Solution Interest Pitch",
     "section": "",
-    "text": "Menghubungkan solution mechanism dengan problem, benefit, dan value yang relevan.",
+    "text": "Menghubungkan mekanisme solusi (solution mechanism) secara presisi dengan masalah, manfaat langsung (benefit), dan nilai relasional (value) yang relevan bagi target tanpa terjebak pembuangan fitur (feature dumping).",
     "crumbs": [
       "Beranda",
       "Problem–Solution Interest Pitch"
     ]
   },
   {
-    "objectID": "portfolio/week-07.html#evidence-wajib",
-    "href": "portfolio/week-07.html#evidence-wajib",
+    "objectID": "portfolio/week-07.html#attention-evidence-solution-hypothesis",
+    "href": "portfolio/week-07.html#attention-evidence-solution-hypothesis",
     "title": "Problem–Solution Interest Pitch",
-    "section": "Evidence wajib",
-    "text": "Evidence wajib\n\nAttention evidence dan problem–solution link.\nInterest pitch dengan evidence atau demonstration.\nResponse, state assessment, hidden concern, dan adaptation.\n\n\n\n\n\n\n\nTipLihat contoh pengisian\n\n\n\nBuka contoh fiktif Minggu 7 untuk melihat tingkat kekonkretan evidence dan analisis. Jangan menyalin contoh sebagai evidence pribadi.",
+    "section": "Attention Evidence & Solution Hypothesis",
+    "text": "Attention Evidence & Solution Hypothesis\nDari observasi dan percakapan minggu ke-6, kasir stan kantin telah mengakui adanya antrean rata-rata 18 orang dengan waktu tunggu 16 menit pada jam 12.00–12.40. Namun, kasir menyampaikan reservation krusial: titik sumbat terbesar bukan proses memasak, melainkan pembeli yang baru memilih lauk dan baru membuka aplikasi QRIS tepat di depan meja kasir.\nSolution Hypothesis: Penyediaan media pemilihan menu fisik di luar antrean yang dipadukan dengan lembar nomor pesanan ringkas (slip order) dan kode bayar statis memungkinkan pembeli mengunci pilihan dan menyelesaikan pembayaran sebelum mencapai meja saji, tanpa menuntut pembeli mengunduh aplikasi baru atau mewajibkan kasir mengoperasikan perangkat digital rumit.\n\nProblem–Solution Link\n\n\n\n\n\n\n\n\n\n\nProblem yang Diakui\nSolution Mechanism\nExpected Benefit\nValue bagi Kasir (Operator)\nValue bagi Mahasiswa (User)\n\n\n\n\nPembeli baru memilih menu di depan meja kasir\nPapan menu gantung & lembar centang pesanan (slip order) di titik antrean awal\nPembeli datang ke kasir sudah membawa slip pesanan yang terisi\nMengurangi interupsi tanya-jawab harga dan lauk yang berulang di meja kasir\nKepastian memilih lauk tanpa tekanan terburu-buru dari antrean di belakang\n\n\nTransaksi pembayaran QRIS tertunda karena sinyal/aplikasi baru dibuka di kasir\nKode QRIS ganda dicetak di area antrean dengan panduan nominal cepat\nPembeli sudah menyiapkan layar bukti transfer saat nomor dipanggil\nRitme pelayanan kasir mengalir cepat tanpa jeda menunggu loading ponsel\nWaktu total antre berkurang sehingga tidak terlambat masuk kuliah siang",
     "crumbs": [
       "Beranda",
       "Problem–Solution Interest Pitch"
     ]
   },
   {
-    "objectID": "portfolio/week-07.html#konteks-performance",
-    "href": "portfolio/week-07.html#konteks-performance",
+    "objectID": "portfolio/week-07.html#interest-pitch-demonstration",
+    "href": "portfolio/week-07.html#interest-pitch-demonstration",
     "title": "Problem–Solution Interest Pitch",
-    "section": "Konteks performance",
-    "text": "Konteks performance\nTanggal dan setting: Ganti dengan tanggal, tempat, dan bentuk kegiatan.\nPersons dan relationship: Jelaskan siapa yang terlibat tanpa membuka data pribadi yang tidak diperlukan.\nObjective dan initial state: Nyatakan perubahan yang ingin dicapai serta evidence state awal.",
+    "section": "Interest Pitch & Demonstration",
+    "text": "Interest Pitch & Demonstration\n\nNaskah Pitch (Disampaikan kepada Kasir Stan Kantin)\n\n“Kemarin Ibu menyampaikan bahwa antrean tersendat karena pembeli baru memilih lauk dan baru membuka aplikasi pembayaran saat sudah di depan meja. Untuk mengatasi hal itu, kita bisa mencoba alur ‘Pilih & Siapkan Sebelum Kasir’. Caranya sangat sederhana: pembeli mencentang slip menu di jalur tunggu luar, lalu cukup menyerahkan slip dan bukti bayar ke Ibu. Dengan cara ini, Ibu tidak perlu mengulang daftar lauk puluhan kali, dan antrean bisa mengalir dua kali lebih cepat tanpa Ibu harus repot menginput komputer. Apakah mekanisme sederhana ini layak kita uji coba selama satu jam besok siang?” (100 kata)\n\n\n\nSkenario Demonstrasi (90 Detik)\nSimulasi dijalankan bersama rekan (Fayza yang berperan bergantian). 1. 0–30 detik: Menunjukkan prototipe fisik berupa papan mika daftar menu + contoh 3 lembar slip order kertas berukuran saku. 2. 31–60 detik: Memperagakan alur: pembeli mencentang “Paket Ayam Bakar + Es Teh”, menunjukkan bukti transfer QRIS pada ponsel, dan menyerahkan slip ke tangan kasir dalam waktu kurang dari 7 detik. 3. 61–90 detik: Mengajukan pertanyaan periksa minat: “Jika alurnya seperti ini, apakah menurut Ibu beban meladeni tanya-jawab menu di meja kasir akan terasa berkurang?”",
     "crumbs": [
       "Beranda",
       "Problem–Solution Interest Pitch"
     ]
   },
   {
-    "objectID": "portfolio/week-07.html#evidence",
-    "href": "portfolio/week-07.html#evidence",
+    "objectID": "portfolio/week-07.html#response-hidden-concern-dan-adaptasi",
+    "href": "portfolio/week-07.html#response-hidden-concern-dan-adaptasi",
     "title": "Problem–Solution Interest Pitch",
-    "section": "Evidence",
-    "text": "Evidence\n\nTambahkan link, gambar, video, transcript, artefak, catatan observer, atau bukti tindakan. Jelaskan bagian mana yang merupakan kontribusi Anda.",
+    "section": "Response, Hidden Concern, dan Adaptasi",
+    "text": "Response, Hidden Concern, dan Adaptasi\n\nRespons Target\nTarget (kasir/penjual stan) memperhatikan demonstrasi dengan seksama, mengangguk pada pemangkasan waktu tanya-jawab, namun menyampaikan keberatan: &gt; “Bagus kalau pembeli sudah bawa kertas pesanan, jadi saya tidak pusing menyebutkan menu. Tapi kalau mereka mencentang sendiri lauk yang ternyata sudah habis di wajan, saya malah harus bolak-balik menjelaskan pembatalan pesanan dari awal. Itu bikin tambah ribet.”\n\n\nIdentifikasi Hidden Concern\nKekhawatiran tersembunyi (hidden concern) target bukanlah penolakan terhadap alur baru, melainkan risiko ketidaksesuaian data ketersediaan menu (stock mismatch) yang berujung pada komplain pelanggan dan kerja ganda.\n\n\nAdaptasi Mekanisme\nMekanisme langsung disesuaikan tanpa mempertahankan ego rancangan awal: 1. Penyederhanaan Lembar: Mengganti kertas cetak permanen dengan papan tulis mini/klip magnetik pada menu harian yang mudah ditandai silang (sold out) oleh asisten dapur dalam 2 detik. 2. Penyesuaian Janji: Mengubah sasaran uji coba dari “memangkas antrean separuh” menjadi “menguji apakah slip pesanan mengurangi waktu interaksi di meja kasir untuk 10 transaksi pertama”.\n\n\nState Assessment Pasca-Adaptasi\nTarget menunjukkan pergeseran nyata dari Attention menuju Interest: - Target bertanya secara proaktif: “Kertas slipnya nanti siapa yang menyediakan dan di mana ditaruhnya agar tidak berceceran ditiup angin?” - Target menyetujui uji coba terbatas (10 transaksi pertama pada sesi awal jam buka, bukan langsung di jam puncak ekstrem).",
     "crumbs": [
       "Beranda",
       "Problem–Solution Interest Pitch"
     ]
   },
   {
-    "objectID": "portfolio/week-07.html#analisis-komunikasi",
-    "href": "portfolio/week-07.html#analisis-komunikasi",
+    "objectID": "portfolio/week-07.html#refleksi-ai-dan-batasan-etika",
+    "href": "portfolio/week-07.html#refleksi-ai-dan-batasan-etika",
     "title": "Problem–Solution Interest Pitch",
-    "section": "Analisis komunikasi",
-    "text": "Analisis komunikasi\n\n\n\nElemen\nEvidence dan analisis\n\n\n\n\nPerson & character\nGanti dengan analisis Anda.\n\n\nObjective & state\nGanti dengan analisis Anda.\n\n\nRepertoire & language\nGanti dengan analisis Anda.\n\n\nResponse & adaptation\nGanti dengan analisis Anda.\n\n\nAgreement/action\nGanti dengan analisis Anda.\n\n\nRelationship outcome\nGanti dengan analisis Anda.",
-    "crumbs": [
-      "Beranda",
-      "Problem–Solution Interest Pitch"
-    ]
-  },
-  {
-    "objectID": "portfolio/week-07.html#penggunaan-ai",
-    "href": "portfolio/week-07.html#penggunaan-ai",
-    "title": "Problem–Solution Interest Pitch",
-    "section": "Penggunaan AI",
-    "text": "Penggunaan AI\nNyatakan Tidak menggunakan AI atau jelaskan:\n\nalat dan peran AI;\nprompt atau instruksi penting;\nbagian output yang digunakan, diubah, atau ditolak;\npemeriksaan accuracy, privacy, dan authority;\napa yang tetap Anda pelajari sebagai manusia.",
-    "crumbs": [
-      "Beranda",
-      "Problem–Solution Interest Pitch"
-    ]
-  },
-  {
-    "objectID": "portfolio/week-07.html#feedback-dan-tindak-lanjut",
-    "href": "portfolio/week-07.html#feedback-dan-tindak-lanjut",
-    "title": "Problem–Solution Interest Pitch",
-    "section": "Feedback dan tindak lanjut",
-    "text": "Feedback dan tindak lanjut\nFeedback yang diterima: Ganti dengan kutipan atau ringkasan berbasis evidence.\nAdaptation/replay: Jelaskan apa yang Anda ubah dan response setelah perubahan.\nNext practice: Tetapkan satu perilaku spesifik yang akan dilatih berikutnya.",
+    "section": "Refleksi, AI, dan Batasan Etika",
+    "text": "Refleksi, AI, dan Batasan Etika\n\nDetoks Fitur: Ide awal pembuatan aplikasi antrean berbasis web atau integrasi bot WhatsApp dipangkas total karena menambah friksi kognitif kasir dan membebani paket data mahasiswa di area kantin yang sering mengalami kendala sinyal.\nPemanfaatan AI: AI dimanfaatkan untuk mengevaluasi logical leap antara fitur dan value serta mengidentifikasi potensi hidden concern operasional kasir. Angka transaksi dan durasi murni bersumber dari observasi lapangan.\nIntegritas & Batasan: Tidak menjanjikan penghapusan antrean secara ajaib; secara jujur menyatakan bahwa alur ini tetap bergantung pada kedisiplinan pembeli mengembalikan pena dan ketersediaan stok dapur.",
     "crumbs": [
       "Beranda",
       "Problem–Solution Interest Pitch"
@@ -6901,8 +6879,8 @@
     "objectID": "portfolio/week-07.html#self-assessment",
     "href": "portfolio/week-07.html#self-assessment",
     "title": "Problem–Solution Interest Pitch",
-    "section": "Self-assessment",
-    "text": "Self-assessment\n\n\n\nDimensi\nSkor 1–4\nEvidence singkat\n\n\n\n\nPerson & Character\n—\n—\n\n\nObjective & State\n—\n—\n\n\nRepertoire, Language & AI\n—\n—\n\n\nResponse & Adaptation\n—\n—\n\n\nAgreement, Action & Relationship\n—\n—\n\n\n\nTotal: — / 20\n\nAssessment dosen\nSkor: — / 20\nEvidence yang mendukung: —\nPrioritas perbaikan: —\nKeputusan: Belum dinilai / Perlu revisi / Tercapai",
+    "section": "Self-Assessment",
+    "text": "Self-Assessment\n\n\n\n\n\n\n\n\nDimensi\nSkor\nEvidence Singkat\n\n\n\n\nPerson & Character\n4\nNilai relasional dipetakan secara kontras antara beban kognitif kasir dan kepastian waktu mahasiswa; menghormati kendala fisik stan.\n\n\nObjective & State\n3\nMengidentifikasi peralihan dari Attention ke Interest melalui pertanyaan lanjutan proaktif target (inquiry signal), belum masuk ke komitmen penuh (Desire).\n\n\nRepertoire, Language & AI\n4\nMenjalankan detoks fitur secara radikal (memangkas sistem digital menjadi alur slip fisik); analogi membumi dan bebas jargon teknis.\n\n\nResponse & Adaptation\n4\nMenangkap hidden concern stok menu habis dengan cepat dan memodifikasi media prototipe menjadi dinamis di tempat.\n\n\nAgreement, Action & Relationship\n3\nMenyepakati uji coba skala mikro (10 transaksi awal) tanpa mengganggu relasi kerja operasional stan.\n\n\n\nTotal Skor: 18/20 — Unggul.",
     "crumbs": [
       "Beranda",
       "Problem–Solution Interest Pitch"
