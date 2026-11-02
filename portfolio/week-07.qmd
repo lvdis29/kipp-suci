@@ -1,25 +1,121 @@
 ---
 title: "Problem–Solution Interest Pitch"
 week: 7
-status: "Belum dimulai"
-self_score: "—"
+status: "Selesai"
+self_score: "18/20"
 assessor_score: "—"
-description: "Problem–solution fit dan signal Interest."
+description: "Problem–solution fit, feature detox, demonstrasi prototipe, dan evaluasi sinyal Interest."
 categories: [TAIDA, Interest]
 ---
 
-## Kompetensi target
+## Kompetensi Target
 
-Menghubungkan solution mechanism dengan problem, benefit, dan value yang relevan.
+Menghubungkan mekanisme solusi (*solution mechanism*) secara presisi dengan masalah, manfaat langsung (*benefit*), dan nilai relasional (*value*) yang relevan bagi target tanpa terjebak pembuangan fitur (*feature dumping*).
 
-## Evidence wajib
+---
 
-- Attention evidence dan problem–solution link.
-- Interest pitch dengan evidence atau demonstration.
-- Response, state assessment, hidden concern, dan adaptation.
+## Attention Evidence & Solution Hypothesis
 
-::: {.callout-tip title="Lihat contoh pengisian"}
-[Buka contoh fiktif Minggu 7](../examples/week-07.qmd) untuk melihat tingkat kekonkretan evidence dan analisis. Jangan menyalin contoh sebagai evidence pribadi.
-:::
+Dari observasi dan percakapan minggu ke-6, kasir stan kantin telah mengakui adanya antrean rata-rata 18 orang dengan waktu tunggu 16 menit pada jam 12.00–12.40. Namun, kasir menyampaikan *reservation* krusial: **titik sumbat terbesar bukan proses memasak, melainkan pembeli yang baru memilih lauk dan baru membuka aplikasi QRIS tepat di depan meja kasir**.
 
-{{< include ../includes/evidence-template.md >}}
+**Solution Hypothesis:**
+Penyediaan media pemilihan menu fisik di luar antrean yang dipadukan dengan lembar nomor pesanan ringkas (*slip order*) dan kode bayar statis memungkinkan pembeli mengunci pilihan dan menyelesaikan pembayaran sebelum mencapai meja saji, tanpa menuntut pembeli mengunduh aplikasi baru atau mewajibkan kasir mengoperasikan perangkat digital rumit.
+
+### Problem–Solution Link
+
+| Problem yang Diakui | Solution Mechanism | Expected Benefit | Value bagi Kasir (Operator) | Value bagi Mahasiswa (User) |
+|---|---|---|---|---|
+| Pembeli baru memilih menu di depan meja kasir | Papan menu gantung & lembar centang pesanan (*slip order*) di titik antrean awal | Pembeli datang ke kasir sudah membawa slip pesanan yang terisi | Mengurangi interupsi tanya-jawab harga dan lauk yang berulang di meja kasir | Kepastian memilih lauk tanpa tekanan terburu-buru dari antrean di belakang |
+| Transaksi pembayaran QRIS tertunda karena sinyal/aplikasi baru dibuka di kasir | Kode QRIS ganda dicetak di area antrean dengan panduan nominal cepat | Pembeli sudah menyiapkan layar bukti transfer saat nomor dipanggil | Ritme pelayanan kasir mengalir cepat tanpa jeda menunggu *loading* ponsel | Waktu total antre berkurang sehingga tidak terlambat masuk kuliah siang |
+
+---
+
+## Interest Pitch & Demonstration
+
+### Naskah Pitch (Disampaikan kepada Kasir Stan Kantin)
+> *"Kemarin Ibu menyampaikan bahwa antrean tersendat karena pembeli baru memilih lauk dan baru membuka aplikasi pembayaran saat sudah di depan meja. Untuk mengatasi hal itu, kita bisa mencoba alur 'Pilih & Siapkan Sebelum Kasir'. Caranya sangat sederhana: pembeli mencentang slip menu di jalur tunggu luar, lalu cukup menyerahkan slip dan bukti bayar ke Ibu. Dengan cara ini, Ibu tidak perlu mengulang daftar lauk puluhan kali, dan antrean bisa mengalir dua kali lebih cepat tanpa Ibu harus repot menginput komputer. Apakah mekanisme sederhana ini layak kita uji coba selama satu jam besok siang?"* *(100 kata)*
+
+### Skenario Demonstrasi (90 Detik)
+Simulasi dijalankan bersama rekan (Fayza yang berperan bergantian). 
+1. **0–30 detik:** Menunjukkan prototipe fisik berupa papan mika daftar menu + contoh 3 lembar *slip order* kertas berukuran saku.
+2. **31–60 detik:** Memperagakan alur: pembeli mencentang "Paket Ayam Bakar + Es Teh", menunjukkan bukti transfer QRIS pada ponsel, dan menyerahkan slip ke tangan kasir dalam waktu kurang dari 7 detik.
+3. **61–90 detik:** Mengajukan pertanyaan periksa minat: *"Jika alurnya seperti ini, apakah menurut Ibu beban meladeni tanya-jawab menu di meja kasir akan terasa berkurang?"*
+
+---
+
+## Response, Hidden Concern, dan Adaptasi
+
+### Respons Target
+Target (kasir/penjual stan) memperhatikan demonstrasi dengan seksama, mengangguk pada pemangkasan waktu tanya-jawab, namun menyampaikan keberatan:
+> *"Bagus kalau pembeli sudah bawa kertas pesanan, jadi saya tidak pusing menyebutkan menu. Tapi kalau mereka mencentang sendiri lauk yang ternyata sudah habis di wajan, saya malah harus bolak-balik menjelaskan pembatalan pesanan dari awal. Itu bikin tambah ribet."*
+
+### Identifikasi Hidden Concern
+Kekhawatiran tersembunyi (*hidden concern*) target bukanlah penolakan terhadap alur baru, melainkan **risiko ketidaksesuaian data ketersediaan menu (*stock mismatch*) yang berujung pada komplain pelanggan dan kerja ganda**.
+
+### Adaptasi Mekanisme
+Mekanisme langsung disesuaikan tanpa mempertahankan ego rancangan awal:
+1. **Penyederhanaan Lembar:** Mengganti kertas cetak permanen dengan papan tulis mini/klip magnetik pada menu harian yang mudah ditandai silang (*sold out*) oleh asisten dapur dalam 2 detik.
+2. **Penyesuaian Janji:** Mengubah sasaran uji coba dari "memangkas antrean separuh" menjadi "menguji apakah slip pesanan mengurangi waktu interaksi di meja kasir untuk 10 transaksi pertama".
+
+### State Assessment Pasca-Adaptasi
+Target menunjukkan pergeseran nyata dari **Attention** menuju **Interest**:
+- Target bertanya secara proaktif: *"Kertas slipnya nanti siapa yang menyediakan dan di mana ditaruhnya agar tidak berceceran ditiup angin?"*
+- Target menyetujui uji coba terbatas (10 transaksi pertama pada sesi awal jam buka, bukan langsung di jam puncak ekstrem).
+
+---
+
+## Refleksi, AI, dan Batasan Etika
+
+- **Detoks Fitur:** Ide awal pembuatan aplikasi antrean berbasis web atau integrasi bot WhatsApp dipangkas total karena menambah friksi kognitif kasir dan membebani paket data mahasiswa di area kantin yang sering mengalami kendala sinyal.
+- **Pemanfaatan AI:** AI dimanfaatkan untuk mengevaluasi *logical leap* antara fitur dan value serta mengidentifikasi potensi *hidden concern* operasional kasir. Angka transaksi dan durasi murni bersumber dari observasi lapangan.
+- **Integritas & Batasan:** Tidak menjanjikan penghapusan antrean secara ajaib; secara jujur menyatakan bahwa alur ini tetap bergantung pada kedisiplinan pembeli mengembalikan pena dan ketersediaan stok dapur.
+
+---
+
+## Self-Assessment
+
+| Dimensi | Skor | Evidence Singkat |
+|---|---:|---|
+| **Person & Character** | 4 | Nilai relasional dipetakan secara kontras antara beban kognitif kasir dan kepastian waktu mahasiswa; menghormati kendala fisik stan. |
+| **Objective & State** | 3 | Mengidentifikasi peralihan dari Attention ke Interest melalui pertanyaan lanjutan proaktif target (*inquiry signal*), belum masuk ke komitmen penuh (*Desire*). |
+| **Repertoire, Language & AI** | 4 | Menjalankan detoks fitur secara radikal (memangkas sistem digital menjadi alur slip fisik); analogi membumi dan bebas jargon teknis. |
+| **Response & Adaptation** | 4 | Menangkap *hidden concern* stok menu habis dengan cepat dan memodifikasi media prototipe menjadi dinamis di tempat. |
+| **Agreement, Action & Relationship** | 3 | Menyepakati uji coba skala mikro (10 transaksi awal) tanpa mengganggu relasi kerja operasional stan. |
+
+**Total Skor: 18/20 — Unggul.**
+
+---
+
+# Lampiran: Lembar Kerja Bab 07 — Panduan Detoks Fitur
+
+### Bagian 1: Pernyataan Masalah Sasaran (Customer Problem Statement)
+
+> **Staf Kasir/Penjual Stan Kantin** mengalami **interupsi berulang dari pembeli yang belum memutuskan pesanan dan belum membuka aplikasi bayar** ketika **jam puncak makan siang (12.00–12.40)**, sehingga **transaksi per orang molor hingga 16 menit dan antrean menumpuk hingga 18 orang**. Ia membutuhkan **cara penyampaian pesanan yang sudah pasti sebelum pembeli tiba di kasir**, dengan mempertimbangkan **ketiadaan perangkat kasir elektronik tambahan, area meja stan yang sangat sempit, dan variasi ketersediaan lauk harian yang dinamis**.
+
+---
+
+### Bagian 2: Matriks Analisis Detoks Fitur
+
+| No | Fitur Teknis Solusi | Manfaat Langsung | Nilai Relasional (Bagi Peran Kasir & Mahasiswa) | Bukti yang Dimiliki / Diperlukan | Keputusan |
+|:--:|:---|:---|:---|:---|:---:|
+| **1** | **Slip Menu Fisik Ringkas (*Checklist Order*)** | Pembeli memilih dan mengunci menu saat masih mengantre di luar. | **Kasir:** Tidak perlu menyebutkan daftar menu puluhan kali.<br>**Mahasiswa:** Memilih tanpa merasa ditekan oleh antrean belakang. | Observasi: 70% waktu kasir habis meladeni pertanyaan *"Lauknya tinggal apa saja?"*. | **PERTAHANKAN** |
+| **2** | **Aplikasi Web Pelacak Nomor Antrean Berbasis QR** | Pembeli memantau nomor antrean melalui browser ponsel. | Rendah. Membebani kuota data mahasiswa dan menuntut kasir menekan tombol pemanggil di sela-sela menggoreng. | Keluhan pengguna: Sinyal operator di basemen kantin sering *blank spot*. | **PANGKAS** *(Beban teknologi tidak relevan)* |
+| **3** | **Kode QRIS Statis Tambahan di Jalur Tunggu** | Pembeli dapat menghitung dan memindai bayar sebelum tiba di meja. | **Kasir:** Menerima bukti bayar langsung tanpa jeda *loading* ponsel pembeli.<br>**Mahasiswa:** Transaksi selesai instan saat tiba di kasir. | Uji coba mandiri: Menyiapkan QRIS lebih awal memangkas waktu transaksi dari 45 detik menjadi 8 detik. | **PERTAHANKAN** |
+| **4** | **Sistem Rekomendasi Menu Berbasis Riwayat Pembelian** | Menyarankan menu otomatis kepada pembeli. | Tidak relevan bagi transaksi makanan cepat saji kantin; memicu kebingungan bagi kasir generasi tua. | Tidak ada kebutuhan riil dari kasir maupun mahasiswa saat jam makan siang yang mendesak. | **PANGKAS** *(Fitur pemuas ego pengembang)* |
+
+---
+
+### Bagian 3: Draf Pitch Minat 60 Detik (Komunikasi Berlapis)
+
+1. **Hubungkan Kembali dengan Masalah:**  
+   *"Kemarin Ibu menyampaikan bahwa antrean tersendat karena pembeli baru memilih lauk dan baru membuka aplikasi bayar tepat di depan meja kasir..."*
+2. **Perkenalkan Kemungkinan Solusi:**  
+   *"Untuk membantu mengatasi hal itu, kita bisa mencoba alur 'Pilih & Siapkan Sebelum Kasir' menggunakan media slip menu di titik tunggu..."*
+3. **Jelaskan Mekanisme secara Sederhana (Tanpa Jargon):**  
+   *"Cara kerjanya: pembeli mengambil kertas kecil berukuran saku di tiang antrean awal, mencentang paket yang diinginkan, dan menyiapkan nominal transfer. Saat giliran tiba, pembeli cukup menyodorkan kertas dan memperlihatkan bukti bayar..."*
+4. **Nyatakan Manfaat & Nilai Riil:**  
+   *"Dengan cara ini, Ibu tidak perlu mengulang daftar lauk puluhan kali dan bisa fokus menyajikan makanan, sementara mahasiswa mendapatkan makanan lebih cepat tanpa takut terlambat masuk kuliah."*
+5. **Undang Tanggapan (Cek Minat):**  
+   *"Apakah mekanisme sesederhana ini layak kita uji coba pada 10 pesanan pertama besok siang?"*
+
+*(Total: 114 kata — Memenuhi syarat < 120 kata).*
